@@ -32,7 +32,10 @@ public class DialogueManager : MonoBehaviour
 
     // Queue holding data read in from text files
     // as strings representing different audio files
-    private Queue<string> audioToPlay;
+    private Queue<string> expressions;
+
+    // Queue of backgrounds
+    private Queue<string> background;
 
     // Track previous name
     private string prevSpeaker;
@@ -44,7 +47,7 @@ public class DialogueManager : MonoBehaviour
     private bool crRunning = false;
 
     // Number of pieces to a line in a text file
-    const int parts = 3;
+    const int parts = 4;
 
     string path;
 
@@ -57,7 +60,8 @@ public class DialogueManager : MonoBehaviour
     {
         // Initialize the queues for names, audio, and dialogue
         speakers = new Queue<string>();
-        audioToPlay = new Queue<string>();
+        expressions = new Queue<string>();
+        background = new Queue<string>();
         sentences = new Queue<string>();
 
         dialogue = new Dialogue();
@@ -121,7 +125,7 @@ public class DialogueManager : MonoBehaviour
             typingSpeed = 0.05f;
 
             // Say BOO if a new character is talking
-            if (audioToPlay.Peek() != prevSpeaker || prevSpeaker == null)
+            if (expressions.Peek() != prevSpeaker || prevSpeaker == null)
             {
                 // Don't try to stop any audio when the first audio in the queue plays
                 // Moves character that has stopped speaking off sceen
@@ -131,8 +135,8 @@ public class DialogueManager : MonoBehaviour
                     FindObjectOfType<CharacterMover>().MoveOffScreen();
                 }
 
-                prevSpeaker = audioToPlay.Peek();
-                FindObjectOfType<AudioManager>().PlaySound(audioToPlay.Dequeue());
+                prevSpeaker = expressions.Peek();
+                FindObjectOfType<AudioManager>().PlaySound(expressions.Dequeue());
 
                 // Place a character in the scene
                 FindObjectOfType<CharacterMover>().MoveOnScreen(prevSpeaker);
@@ -141,9 +145,12 @@ public class DialogueManager : MonoBehaviour
             // Cycle through the Queue without playing audio
             else
             {
-                prevSpeaker = audioToPlay.Peek();
-                audioToPlay.Dequeue();
+                prevSpeaker = expressions.Peek();
+                expressions.Dequeue();
             }
+
+            // ----- Backgrounds -----
+            FindObjectOfType<Backgrounds>().DrawBackground(background.Dequeue());
 
             // Get the next name and text to display
             nameText.text = speakers.Dequeue();
@@ -210,11 +217,13 @@ public class DialogueManager : MonoBehaviour
 
                 // Assign values based on read in data
                 // 1. speaker name
-                // 2. audio file
-                // 3. sentence
+                // 2. audio file + character sprite/expression
+                // 3. background
+                // 4. sentence
                 dialogue.Name.Add(sceneData[0]);
-                audioToPlay.Enqueue(sceneData[1]);
-                dialogue.Sentences.Add(sceneData[2]);
+                expressions.Enqueue(sceneData[1]);
+                background.Enqueue(sceneData[2]);
+                dialogue.Sentences.Add(sceneData[3]);
 
                 sCount++;
             }

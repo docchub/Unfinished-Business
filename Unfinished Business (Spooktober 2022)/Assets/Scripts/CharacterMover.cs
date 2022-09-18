@@ -7,7 +7,6 @@ public class CharacterMover : MonoBehaviour
     [SerializeField]
     GameObject[] characters;
 
-    //private List<GameObject> instantiatedCharacters = new List<GameObject>();
     private GameObject instantiatedChar = null;
 
     /// <summary>
@@ -35,14 +34,5 @@ public class CharacterMover : MonoBehaviour
         {
             Destroy(instantiatedChar);
         }
-        
-        //foreach (GameObject g in instantiatedCharacters)
-        //{
-        //    if (g.name == character + "(Clone)")
-        //    {
-        //        Destroy(g);
-        //        return;
-        //    }
-        //}
     }
 }
