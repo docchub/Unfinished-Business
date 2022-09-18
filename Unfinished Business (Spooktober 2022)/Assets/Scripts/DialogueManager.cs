@@ -30,8 +30,8 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> speakers;
     private Queue<string> sentences;
 
-    // Dictionary connecting data read in from text files
-    // to strings representing different audio files
+    // Queue holding data read in from text files
+    // as strings representing different audio files
     private Queue<string> audioToPlay;
 
     // Track previous name
@@ -131,7 +131,12 @@ public class DialogueManager : MonoBehaviour
 
                 prevSpeaker = audioToPlay.Peek();
                 FindObjectOfType<AudioManager>().PlaySound(audioToPlay.Dequeue());
+
+                // Place a character in the scene
+                FindObjectOfType<CharacterMover>().MoveOnScreen(prevSpeaker);
             }
+
+            // Cycle through the Queue without playing audio
             else
             {
                 prevSpeaker = audioToPlay.Peek();
