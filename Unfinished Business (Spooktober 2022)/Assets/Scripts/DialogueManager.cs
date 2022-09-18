@@ -124,9 +124,11 @@ public class DialogueManager : MonoBehaviour
             if (audioToPlay.Peek() != prevSpeaker || prevSpeaker == null)
             {
                 // Don't try to stop any audio when the first audio in the queue plays
+                // Moves character that has stopped speaking off sceen
                 if (prevSpeaker != null)
                 {
                     FindObjectOfType<AudioManager>().StopSound(prevSpeaker);
+                    FindObjectOfType<CharacterMover>().MoveOffScreen();
                 }
 
                 prevSpeaker = audioToPlay.Peek();

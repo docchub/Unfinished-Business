@@ -1052,6 +1052,7 @@ MonoBehaviour:
   characters:
   - {fileID: 7313808265440739679, guid: 92cc75012ca108b49917cfc9d80f72fb, type: 3}
   - {fileID: 2427492535227371908, guid: 00b0cfd9d82890e43bcd6520b4b92f71, type: 3}
+  - {fileID: 8401566847254994266, guid: e8a794b3cad1a4642abf9e70a92205f7, type: 3}
 --- !u!4 &2117699640
 Transform:
   m_ObjectHideFlags: 0

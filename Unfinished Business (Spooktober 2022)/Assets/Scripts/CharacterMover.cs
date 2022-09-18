@@ -7,25 +7,42 @@ public class CharacterMover : MonoBehaviour
     [SerializeField]
     GameObject[] characters;
 
+    //private List<GameObject> instantiatedCharacters = new List<GameObject>();
+    private GameObject instantiatedChar = null;
+
+    /// <summary>
+    /// Instantiate a given character sprite
+    /// </summary>
+    /// <param name="character"></param>
     public void MoveOnScreen(string character)
     {
         foreach (GameObject c in characters)
         {
             if (c.name == character)
             {
-                Instantiate(c);
+                instantiatedChar = Instantiate(c);
             }
         }        
     }
 
-    public void MoveOffScreen(string character)
+    /// <summary>
+    /// Destroy an instantiated character sprite
+    /// </summary>
+    /// <param name="character"></param>
+    public void MoveOffScreen()
     {
-        foreach (GameObject c in characters)
+        if (instantiatedChar != null)
         {
-            if (c.name == character)
-            {
-                Destroy(c);
-            }
+            Destroy(instantiatedChar);
         }
+        
+        //foreach (GameObject g in instantiatedCharacters)
+        //{
+        //    if (g.name == character + "(Clone)")
+        //    {
+        //        Destroy(g);
+        //        return;
+        //    }
+        //}
     }
 }
