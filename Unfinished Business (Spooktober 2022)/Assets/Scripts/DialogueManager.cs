@@ -47,7 +47,7 @@ public class DialogueManager : MonoBehaviour
     private bool crRunning = false;
 
     // Number of pieces to a line in a text file
-    const int parts = 4;
+    const int parts = 3;
 
     string path;
 
@@ -96,6 +96,9 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
+
+        // ----- Backgrounds -----
+        FindObjectOfType<Backgrounds>().DrawBackground(background.Dequeue());
 
         DisplayNextSentence();
     }
@@ -149,9 +152,6 @@ public class DialogueManager : MonoBehaviour
                 expressions.Dequeue();
             }
 
-            // ----- Backgrounds -----
-            FindObjectOfType<Backgrounds>().DrawBackground(background.Dequeue());
-
             // Get the next name and text to display
             nameText.text = speakers.Dequeue();
             string sentence = sentences.Dequeue();
@@ -203,13 +203,14 @@ public class DialogueManager : MonoBehaviour
         string line;
         string[] sceneData = new string[parts];
 
-        // track how many sentences in queue
-        int sCount = 0;
-
         // Attempt to read in a scene from a text file
         try
         {
             reader = new StreamReader(path);
+
+            // Read the background at the top of the text file
+            line = reader.ReadLine();
+            background.Enqueue(line);
 
             while ((line = reader.ReadLine()) != null)
             {
@@ -218,14 +219,10 @@ public class DialogueManager : MonoBehaviour
                 // Assign values based on read in data
                 // 1. speaker name
                 // 2. audio file + character sprite/expression
-                // 3. background
-                // 4. sentence
+                // 3. sentence
                 dialogue.Name.Add(sceneData[0]);
                 expressions.Enqueue(sceneData[1]);
-                background.Enqueue(sceneData[2]);
-                dialogue.Sentences.Add(sceneData[3]);
-
-                sCount++;
+                dialogue.Sentences.Add(sceneData[2]);
             }
         }
 

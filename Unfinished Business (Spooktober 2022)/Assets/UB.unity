@@ -848,6 +848,42 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 096be4949b3a76848a12e452086d2f85, type: 3}
     volume: 0.8
     pitch: 1
+  - name: coriAnnoy
+    clip: {fileID: 8300000, guid: d921b92b4e2e6f1489de5695e7a247fa, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriAnnoy2
+    clip: {fileID: 8300000, guid: ca48e98e769fd0e40b9c16bf554bc829, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriAnnoy3
+    clip: {fileID: 8300000, guid: b923245235ac6d2499a556b8fc39f1c0, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriDistort
+    clip: {fileID: 8300000, guid: 5387acb82c9d7f24784df4cb5eca135f, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriMad
+    clip: {fileID: 8300000, guid: 28f9c1fa8c1cee54587c4acef297a55a, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriNeutral
+    clip: {fileID: 8300000, guid: 26ce53c9a71b2b84e943e7bb314043be, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriNeutral2
+    clip: {fileID: 8300000, guid: 44a79305ce2b69442adb86ee012a856e, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriFinal1
+    clip: {fileID: 8300000, guid: e1ae0d7e4804a0f4f95f3ddd7db28dd1, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriFinal2
+    clip: {fileID: 8300000, guid: 1c014c942be904c49b2e8e0a04a480d2, type: 3}
+    volume: 0.8
+    pitch: 1
 --- !u!4 &1314003038
 Transform:
   m_ObjectHideFlags: 0
