@@ -1,6 +1,6 @@
 weirdscape
-Nastasia|nasNeutral|Does this look ok?
-Nastasia|nasNeutral|Having a conversation like this I mean.
+|nasNeutral|Does this look ok?
+|nasNeutral|Having a conversation like this I mean.
 Nastasia|nasHappy|eyo barbie lets go party.
 Nastasia|nasHappy|IM A BARBIE GIRL
 Nastasia|nasHappy|IN A BARBIE WORRRRRLD

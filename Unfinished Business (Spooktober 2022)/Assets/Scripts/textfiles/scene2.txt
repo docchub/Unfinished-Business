@@ -1,0 +1,46 @@
+||(You stand before an old beaten down looking bookstore. Double checking the directions on the pamphlet, it doesn’t seem like you’re in the wrong place.)
+||You almost decide to leave before looking down to see a cardboard sign out front that reads: ‘Unfinished Business’ in messy chicken scratch.)
+||(You see in smaller handwriting beneath it...)
+Cardboard Sign||‘Sorry for the bad sign.’
+Cardboard Sign||‘Our usual sign guy called out sick today.’
+Cardboard Sign||‘He likes to hold it up and dance around with it, so we put it on the ground today in solidarity.’
+Cardboard Sign||’We would’ve put it at half mast but we ran out of tape.’
+||(You can tell whoever wrote this started their letters too big, as the majority of the note is squished into the side of the sign.)
+You||Maybe this was a mistake…
+||(Just before you can turn away, you hear a number of whispering voices from inside start to gather.)
+Whispering Guy #1||Is that a client?
+Whispering Guy #2||I think it's a host.
+Whispering Guy #1||Nah we don’t have those.
+Whispering Guy #3||Yeah, Unfinished Business hasn’t had a host in...uhh
+Whispering Guy #3||uh...
+Whispering Guy #1||A realllllllllllllllly long time.
+Whispering Guy #2||They’re clearly alive though. And they’re staring right at us.
+Whispering Guy #1||Nonono, see. He’s probably just lost and admiring the architecture.
+Whispering Guy #3||These are just the things you pick up on from years of experience, rookie.
+You||Hello?
+Whispering Guy #2||Told you.
+Whispering Guy #1 + #3||Beginner’s luck.
+You||Are you taking applications for hosts at the moment? If not I’m absolutely willing to wait until one of the current hosts or hostesses leave and the position opens up.
+Guy #1||Uh you’ll wanna talk to Corduroy about that. They’re the head of recruitment.
+You||When can I meet them?
+||(Phasing through the door at that moment is the same strange mascot character you saw last night.)
+||(It also dawns on you in this moment that this person never had legs, and has just been floating around.)
+You||HOW’D YOU DO THAT?
+Corduroy|coriAnnoy|I told you. I’m a ghost.
+You||Like a poltergeist?
+Corduroy|coriMad|Absolutely NOT like a poltergeist.
+||(Something seems to have deeply offended them?)
+Corduroy|coriMad|I am NOT some common spirit getting off on stealing bodies, or some wash-up poltergeist knocking things over for fun.
+Corduroy|coriNeutral|I. Am a Raiju.
+You||A what who?
+Corduroy|coriNeutral|A Japanese lightning beast.
+Guy #3||They get kind of angry around electricity so we have to keep the lights off when they’re in the building.
+Guy #1||Not like we could afford the bill anyway, so it's a win-win!
+You||Beast? Like the ghost of a dog or something?
+Corduroy|coriAnnoy|No.
+You||Can I pet you?
+Corduroy|coriAnnoy|We’re getting off track. Did you want the job or not?
+You||Sorry sir, yes please.
+Corduroy|coriNeutral|Fantastic.
+||(They do not seem thrilled.)
+Corduroy|coriNeutral|Come inside.

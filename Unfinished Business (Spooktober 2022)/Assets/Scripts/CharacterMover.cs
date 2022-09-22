@@ -19,6 +19,7 @@ public class CharacterMover : MonoBehaviour
         {
             if (c.name == character)
             {
+                Destroy(instantiatedChar);
                 instantiatedChar = Instantiate(c);
             }
         }        
