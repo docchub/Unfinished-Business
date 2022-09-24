@@ -54,6 +54,7 @@ public class FadeInOut : MonoBehaviour
             }
 
             // When done
+            FindObjectOfType<DialogueManager>().NewDialogue(true);
             StopCoroutine(Fade(fadeToBlack, fadeSpeed));
         }
 

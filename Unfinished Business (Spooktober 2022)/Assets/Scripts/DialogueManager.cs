@@ -54,7 +54,14 @@ public class DialogueManager : MonoBehaviour
     // Number of pieces to a line in a text file
     const int parts = 4;
 
+    // Testing File Path
     string path;
+
+    // Intro Scene File Paths
+    const int introScenes = 3;
+    string sceneDataPath;
+    private Queue<string> introSceneFilePaths;
+    public bool loadStarted = false;
 
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
@@ -71,7 +78,14 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
 
         dialogue = new Dialogue();
+
+        // Testing path
         path = Application.dataPath + "/Scripts/textfiles/testscene.txt";
+
+        // Read in scene data
+        sceneDataPath = Application.dataPath + "/Scripts/textfiles/introscenedata.txt";
+        introSceneFilePaths = new Queue<string>();
+        ReadScenePaths();
 
         // File IO
         ReadScene(dialogue);
@@ -86,8 +100,6 @@ public class DialogueManager : MonoBehaviour
     /// <param name="dialogue"></param>
     public void StartDialogue(Dialogue dialogue)
     {
-        Debug.Log("Starting dialogue with " + dialogue.Name);
-
         // Clear queue
         sentences.Clear();
 
@@ -183,7 +195,50 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of conversation.");
-        NewDialogue();
+        loadStarted = false;
+
+        if (introSceneFilePaths.Peek() != null)
+        {
+            NewDialogue(false);
+        }
+    }
+
+    /// <summary>
+    /// Gets the filepaths of the introductory scenes
+    /// </summary>
+    void ReadScenePaths()
+    {
+        StreamReader reader = null;
+        string line;
+        int lineNumber = 0;
+
+        // Attempt to read in a scene from a text file
+        try
+        {
+            reader = new StreamReader(sceneDataPath);
+
+            while ((line = reader.ReadLine()) != null)
+            {
+                introSceneFilePaths.Enqueue(Application.dataPath + "/Scripts/textfiles/" + line);
+                lineNumber++;
+            }
+        }
+
+        // Writes exceptions to the Output window
+        catch (IOException ioe)
+        {
+            Debug.Log("IO Error: " + ioe.Message);
+        }
+        catch (Exception ex)
+        {
+            Debug.Log("General Error: " + ex.Message);
+        }
+
+        // Close the reader
+        if (reader != null)
+        {
+            reader.Close();
+        }
     }
 
     /// <summary>
@@ -195,11 +250,12 @@ public class DialogueManager : MonoBehaviour
         StreamReader reader = null;
         string line;
         string[] sceneData = new string[parts];
+        int count = 1;
 
         // Attempt to read in a scene from a text file
         try
         {
-            reader = new StreamReader(path);
+            reader = new StreamReader(introSceneFilePaths.Dequeue());
 
             // Read the background at the top of the text file
             line = reader.ReadLine();
@@ -209,15 +265,24 @@ public class DialogueManager : MonoBehaviour
             {
                 sceneData = line.Split('|');
 
+                count++;
+
                 // Assign values based on read in data
                 // 1. speaker name
                 // 2. audio file
                 // 3. sentence
                 // 4. character
                 dialogue.Name.Add(sceneData[0]);
+                Debug.Log("Read in: " + sceneData[0] + " from line " + String.Format("" + count));
+
                 audiolines.Enqueue(sceneData[1]);
+                Debug.Log("Read in: " + sceneData[1] + " from line " + String.Format("" + count));
+
                 characters.Enqueue(sceneData[2]);
+                Debug.Log("Read in: " + sceneData[2] + " from line " + String.Format("" + count));
+
                 dialogue.Sentences.Add(sceneData[3]);
+                Debug.Log("Read in: " + sceneData[3] + " from line " + String.Format("" + count));
             }
         }
 
@@ -294,9 +359,31 @@ public class DialogueManager : MonoBehaviour
     /// <summary>
     /// Start a new dialogue scene
     /// </summary>
-    void NewDialogue()
+    public void NewDialogue(bool loaded)
     {
-        // Fade to black
-        FindObjectOfType<FadeInOut>().FadeScene(true);
+        if (!loaded && !loadStarted)
+        {
+            loadStarted = true;
+            
+            // Fade to black
+            FindObjectOfType<FadeInOut>().FadeScene(true);
+
+            // Clear data
+            dialogue.Name.Clear();
+            dialogue.Sentences.Clear();
+            audiolines.Clear();
+            characters.Clear();
+            background.Clear();
+        }
+        else
+        {            
+            FindObjectOfType<FadeInOut>().FadeScene(false);
+
+            // File IO
+            ReadScene(dialogue);
+
+            // Starts the dialogue tree
+            StartDialogue(dialogue);
+        }
     }
 }
