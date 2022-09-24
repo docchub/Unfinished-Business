@@ -1,8 +1,7 @@
 weirdscape
-|nasNeutral|Does this look ok?
-|nasNeutral|Having a conversation like this I mean.
-Nastasia|nasHappy|eyo barbie lets go party.
-Nastasia|nasHappy|IM A BARBIE GIRL
-Nastasia|nasHappy|IN A BARBIE WORRRRRLD
-Nastasia|nasUnimpressed|I hate this song.
-Corduroy|coriNeutral|There aren't going to be a lot of scenes like this so I'm not worried.
+Cori||coriNeutral|Sentence Sentence 1 Sentence 2
+MS||msNeutral|Sentence Sentence 1 Sentence 2
+Nas||nasNeutral|Sentence Sentence 1 Sentence 2
+Nas|||Sentence Sentence 1 Sentence 2
+MS||msNeutral|Sentence Sentence 1 Sentence 2
+MS|||Sentence Sentence 1 Sentence 2

@@ -5,6 +5,7 @@ using System.IO;
 using System.Runtime.InteropServices.ComTypes;
 using TMPro;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
@@ -70,7 +71,7 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
 
         dialogue = new Dialogue();
-        path = Application.dataPath + "/Scripts/textfiles/scene1.txt";
+        path = Application.dataPath + "/Scripts/textfiles/testscene.txt";
 
         // File IO
         ReadScene(dialogue);
@@ -134,9 +135,13 @@ public class DialogueManager : MonoBehaviour
 
             PlayAudio();
 
-            if (characters.Peek() != null)
+            if (characters.Peek() != "")
             {
                 PlaceCharacter();
+            }
+            else
+            {
+                characters.Dequeue();
             }
 
             // Get the next name and text to display
@@ -178,6 +183,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of conversation.");
+        NewDialogue();
     }
 
     /// <summary>
@@ -210,13 +216,8 @@ public class DialogueManager : MonoBehaviour
                 // 4. character
                 dialogue.Name.Add(sceneData[0]);
                 audiolines.Enqueue(sceneData[1]);
-                dialogue.Sentences.Add(sceneData[2]);
-
-                if (sceneData[3] != string.Empty)
-                {
-                    Debug.Log("Added character");
-                    characters.Enqueue(sceneData[3]);
-                }
+                characters.Enqueue(sceneData[2]);
+                dialogue.Sentences.Add(sceneData[3]);
             }
         }
 
@@ -253,10 +254,10 @@ public class DialogueManager : MonoBehaviour
         {
             // Don't try to stop any audio when the first audio in the queue plays
             // Moves character that has stopped speaking off sceen
-            if (prevSpeaker != null)
-            {
-                FindObjectOfType<AudioManager>().StopSound(prevSpeaker);
-            }
+            //if (prevSpeaker != null)
+            //{
+            //    FindObjectOfType<AudioManager>().StopSound(prevSpeaker);
+            //}
 
             prevSpeaker = audiolines.Peek();
             FindObjectOfType<AudioManager>().PlaySound(audiolines.Dequeue());
@@ -281,10 +282,21 @@ public class DialogueManager : MonoBehaviour
         }
         else if (characters.Peek() != null)
         {
-            Debug.Log("Placed character.");
+            // Remove any previous character
+            FindObjectOfType<CharacterMover>().MoveOffScreen();
 
             // Place a character in the scene
+            Debug.Log("Placed character.");
             FindObjectOfType<CharacterMover>().MoveOnScreen(characters.Dequeue());
         }
+    }
+
+    /// <summary>
+    /// Start a new dialogue scene
+    /// </summary>
+    void NewDialogue()
+    {
+        // Fade to black
+        FindObjectOfType<FadeInOut>().FadeScene(true);
     }
 }

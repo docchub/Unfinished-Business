@@ -8,6 +8,7 @@ public class CharacterMover : MonoBehaviour
     GameObject[] characters;
 
     private GameObject instantiatedChar = null;
+    private List<GameObject> sceneCharacters = new List<GameObject>();
 
     /// <summary>
     /// Instantiate a given character sprite
@@ -19,8 +20,11 @@ public class CharacterMover : MonoBehaviour
         {
             if (c.name == character)
             {
-                Destroy(instantiatedChar);
                 instantiatedChar = Instantiate(c);
+                sceneCharacters.Add(instantiatedChar);
+
+                // Fade in
+                FindObjectOfType<FadeInOut>().FadeElement(true, instantiatedChar);
             }
         }        
     }
@@ -33,7 +37,16 @@ public class CharacterMover : MonoBehaviour
     {
         if (instantiatedChar != null)
         {
-            Destroy(instantiatedChar);
+            // Fade out
+            FindObjectOfType<FadeInOut>().FadeElement(false, instantiatedChar);            
         }
+    }
+
+    /// <summary>
+    /// Empties the list of instantiated characters
+    /// </summary>
+    public void ClearSceneCharacters()
+    {
+        sceneCharacters.Clear();
     }
 }
