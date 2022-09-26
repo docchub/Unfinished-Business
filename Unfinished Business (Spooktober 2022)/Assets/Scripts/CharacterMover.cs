@@ -47,6 +47,10 @@ public class CharacterMover : MonoBehaviour
     /// </summary>
     public void ClearSceneCharacters()
     {
-        sceneCharacters.Clear();
+        while (sceneCharacters.Count > 0)
+        {
+            Destroy(sceneCharacters[0]);
+            sceneCharacters.Remove(sceneCharacters[0]); ;
+        }
     }
 }

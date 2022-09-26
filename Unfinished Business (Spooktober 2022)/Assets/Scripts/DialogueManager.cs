@@ -54,19 +54,19 @@ public class DialogueManager : MonoBehaviour
     private bool crRunning = false;
 
     // Number of pieces to a line in a text file
-    const int parts = 4;
+    private const int parts = 4;
 
     // Testing File Path
-    string path;
+    private string path;
 
     // Intro Scene File Paths
-    const int introScenes = 3;
-    string sceneDataPath;
+    private const int introScenes = 3;
+    private string sceneDataPath;
     private Queue<string> introSceneFilePaths;
     private bool loadStarted = false;
 
     // Clicking
-    bool prevMouseState;
+    private bool prevMouseState;
 
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
@@ -101,7 +101,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !loadStarted)
         {
             //Debug.Log("You clicked.");
             DisplayNextSentence();
@@ -380,6 +380,7 @@ public class DialogueManager : MonoBehaviour
             FindObjectOfType<FadeInOut>().FadeScene(true);
 
             // Clear data
+            FindObjectOfType<CharacterMover>().ClearSceneCharacters();
             dialogue.Name.Clear();
             dialogue.Sentences.Clear();
             audiolines.Clear();
@@ -399,13 +400,4 @@ public class DialogueManager : MonoBehaviour
             loadStarted = false;
         }
     }
-
-    //public void OnClick(InputAction.CallbackContext context)
-    //{        
-    //    if (Input.GetMouseButtonDown(0))
-    //    {
-    //        Debug.Log("You clicked.");
-    //        DisplayNextSentence();
-    //    }       
-    //}
 }

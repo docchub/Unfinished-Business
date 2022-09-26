@@ -12,7 +12,7 @@ Corduroy|coriNeutral|coriNeutral|Come on.
 You|||Here, let me help.
    |||(You quickly tie the knot. You are an expert at your craft.)
 Ghost wearing a tie||tieghost|W h o a a a a a a a a a a a a.
-Other ghost wearing a tie||tieghost|Thank you nice person.
+Ghost wearing a tie|||Thank you nice person.
 You|||Anytime!
    |||(You smile, admiring your work before being pulled away by Corduroy.)
 Corduroy|coriNeutral2|coriNeutral|So.

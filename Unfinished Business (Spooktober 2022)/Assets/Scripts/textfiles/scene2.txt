@@ -1,4 +1,4 @@
-weirdscape
+void
 			  |||(You stand before an old beaten down looking bookstore. Double checking the directions on the pamphlet, it doesn’t seem like you’re in the wrong place.)
 			  |||You almost decide to leave before looking down to see a cardboard sign out front that reads: ‘Unfinished Business’ in messy chicken scratch.)
 			  |||(You see in smaller handwriting beneath it...)
@@ -37,7 +37,7 @@ Corduroy|coriNeutral||I. Am a Raiju.
 You|||A what who?
 Corduroy|coriNeutral||A mythological lightning beast.
 Guy #3||tieghost|They get kind of angry around electricity so we have to keep the lights off when they’re in the building.
-Guy #1||tieghost|Not like we could afford the bill anyway, so it's a win-win!
+Guy #1||genericghost|Not like we could afford the bill anyway, so it's a win-win!
 You|||Beast? Like the ghost of a dog or something?
 Corduroy|coriAnnoy|coriNeutral|No.
 You|||Can I pet you?
