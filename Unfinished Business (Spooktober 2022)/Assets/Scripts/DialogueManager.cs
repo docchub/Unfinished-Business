@@ -9,6 +9,8 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -61,7 +63,10 @@ public class DialogueManager : MonoBehaviour
     const int introScenes = 3;
     string sceneDataPath;
     private Queue<string> introSceneFilePaths;
-    public bool loadStarted = false;
+    private bool loadStarted = false;
+
+    // Clicking
+    bool prevMouseState;
 
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
@@ -92,6 +97,15 @@ public class DialogueManager : MonoBehaviour
 
         // Starts the dialogue tree
         StartDialogue(dialogue);
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            //Debug.Log("You clicked.");
+            DisplayNextSentence();
+        }
     }
 
     /// <summary>
@@ -133,7 +147,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         // Display nothing
-        else if (sentences.Count == 0)
+        else if (!crRunning && sentences.Count == 0)
         {
             EndDialogue();
             return;
@@ -195,10 +209,10 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of conversation.");
-        loadStarted = false;
 
-        if (introSceneFilePaths.Peek() != null)
+        if (introSceneFilePaths.Count > 0 && !loadStarted)
         {
+            loadStarted = true;
             NewDialogue(false);
         }
     }
@@ -273,16 +287,15 @@ public class DialogueManager : MonoBehaviour
                 // 3. sentence
                 // 4. character
                 dialogue.Name.Add(sceneData[0]);
-                Debug.Log("Read in: " + sceneData[0] + " from line " + String.Format("" + count));
-
                 audiolines.Enqueue(sceneData[1]);
-                Debug.Log("Read in: " + sceneData[1] + " from line " + String.Format("" + count));
-
                 characters.Enqueue(sceneData[2]);
-                Debug.Log("Read in: " + sceneData[2] + " from line " + String.Format("" + count));
-
                 dialogue.Sentences.Add(sceneData[3]);
-                Debug.Log("Read in: " + sceneData[3] + " from line " + String.Format("" + count));
+
+                //// Debugger
+                //Debug.Log("Read in: " + sceneData[0] + " from line " + String.Format("" + count));
+                //Debug.Log("Read in: " + sceneData[1] + " from line " + String.Format("" + count));
+                //Debug.Log("Read in: " + sceneData[2] + " from line " + String.Format("" + count));
+                //Debug.Log("Read in: " + sceneData[3] + " from line " + String.Format("" + count));
             }
         }
 
@@ -361,10 +374,8 @@ public class DialogueManager : MonoBehaviour
     /// </summary>
     public void NewDialogue(bool loaded)
     {
-        if (!loaded && !loadStarted)
-        {
-            loadStarted = true;
-            
+        if (!loaded || !loadStarted)
+        {            
             // Fade to black
             FindObjectOfType<FadeInOut>().FadeScene(true);
 
@@ -384,6 +395,17 @@ public class DialogueManager : MonoBehaviour
 
             // Starts the dialogue tree
             StartDialogue(dialogue);
+
+            loadStarted = false;
         }
     }
+
+    //public void OnClick(InputAction.CallbackContext context)
+    //{        
+    //    if (Input.GetMouseButtonDown(0))
+    //    {
+    //        Debug.Log("You clicked.");
+    //        DisplayNextSentence();
+    //    }       
+    //}
 }
