@@ -1,0 +1,36 @@
+spraypaint
+|||(Despite the recruiter’s warnings, you find yourself seeking out Nastasia.)
+|||(The directions Corduroy gave you end up leading you into an abandoned graffiti plastered skate park.)
+|||(Looking around, you see no sign of anyone else but yourself having been here. A small relief.)
+|||(At a closer glance you notice one tag in particular amongst the graffiti that catches your eye.)
+|||(Some gang called...)
+|||(The Lil’ Pepperonis?)
+|||(All their tags seem to be covering up some others you can’t make out.)
+Nastasia|||Can I help you...
+You|||WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!
+Nastasia|||Please shut up...
+You|||I’m sorry that was extremely unprofessional.
+Nastasia|||Oh... you’re with UB?
+You|||Unfinished Business, at your service.
+Nastasia|||Huh...
+You|||Something wrong?
+Nastasia|||No no. I’m just genuinely surprised they sent someone.
+Nastasia|||You know what you’re getting into? Or did Corduroy finally stop giving a shit?
+You|||No, they told me everything.
+Nastasia|||Everything, huh? And you still came?
+Nastasia|||I can’t decide whether you’re the coolest person I’ve ever met, or the most naive.
+You|||Well I figure everyone deserves a second chance.
+Nastasia|||Those second chances pile up my guy.
+Nastasia|||Don’t forget to look out for yourself once and a while, yeah?
+Nastasia|||I’ve had plenty of chances.
+Nastasia|||Screwed up most of them.
+Nastasia|||But thanks. I appreciate you not giving up on me.
+You|||Just doing my job.
+|||(Nastasia chuckles dryly.)
+Nastasia|||Whatever you say.
+|||(There’s an awkward pause. You hear the sound of traffic nearby.)
+|||(Some guy is yelling about a bad parking job. It sounds like they bumped into whoever's car it was.)
+|||(Judging from the siren. It sounds like it was your car...)
+You|||So... Interview?
+Nastasia|||I’ve got something I need to do now, but we can set something up later. Besides...
+Nastasia|||It sounds like you’ve got something you need to deal with...
