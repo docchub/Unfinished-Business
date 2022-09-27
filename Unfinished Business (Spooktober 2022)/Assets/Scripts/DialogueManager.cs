@@ -95,7 +95,7 @@ public class DialogueManager : MonoBehaviour
         // File IO
         ReadScene(dialogue);
 
-        // Starts the dialogue tree
+        // Slow start-up
         StartDialogue(dialogue);
     }
 

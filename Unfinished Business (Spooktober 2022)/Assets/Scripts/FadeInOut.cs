@@ -119,36 +119,15 @@ public class FadeInOut : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Fades in and then out
-    /// </summary>
-    /// <param name="fadeSpeed"></param>
-    /// <returns></returns>
-    //public IEnumerator FadeIO(int fadeSpeed)
-    //{
-    //    Color color = fader.GetComponent<SpriteRenderer>().color;
-    //    float fadeAmount;
-
-    //    // First fade in
-    //    while (fader.GetComponent<SpriteRenderer>().color.a < 1)
-    //    {
-    //        fadeAmount = color.a + (fadeSpeed * Time.deltaTime);
-
-    //        color = new Color(color.r, color.g, color.b, fadeAmount);
-    //        fader.GetComponent<SpriteRenderer>().color = color;
-    //        yield return null;
-    //    }
-
-    //    // Then fade out
-    //    while (fader.GetComponent<SpriteRenderer>().color.a > 0)
-    //    {
-    //        fadeAmount = color.a - (fadeSpeed * Time.deltaTime);
-
-    //        color = new Color(color.r, color.g, color.b, fadeAmount);
-    //        fader.GetComponent<SpriteRenderer>().color = color;
-    //        yield return null;
-    //    }
-
-    //    StopCoroutine(FadeIO(fadeSpeed));
-    //}
+    public bool IsFaded()
+    {
+        if (fader.GetComponent<SpriteRenderer>().color.a == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }
