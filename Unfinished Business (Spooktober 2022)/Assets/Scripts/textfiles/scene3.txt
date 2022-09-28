@@ -19,8 +19,7 @@ Corduroy|coriNeutral2|coriNeutral|So.
 Corduroy|||Let me explain how this is going to work.
 You|||Wait, already? Aren’t you supposed to give me an interview?
 Corduroy|coriNeutral||No, see, from now on that’s your job.
-You|||Wha-
-Corduroy|coriNeutral2||Recently we’ve undergone some big changes here at Unfinished Business.
+Corduroy|||Recently we’ve undergone some big changes here at Unfinished Business.
 Corduroy|||And in accordance with the new guidelines... 
 Corduroy|||Hosts and clients will be required to undergo an extensive interview process before any selections are to be made.
 You|||Wait when those three said ‘host’ earlier I assumed this was some sort of restaurant thing? I’m not qualified to interview anyone!

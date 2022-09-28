@@ -11,6 +11,7 @@ using UnityEngine.UI;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -68,6 +69,11 @@ public class DialogueManager : MonoBehaviour
     // Clicking
     private bool prevMouseState;
 
+    // ---- Scene Selection ----
+    [SerializeField]
+    string sceneFilePath;
+    private string path0;
+
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
     // ------------------------------------------------------------------------
@@ -86,6 +92,12 @@ public class DialogueManager : MonoBehaviour
 
         // Testing path
         path = Application.dataPath + "/Scripts/textfiles/testscene.txt";
+
+        // Special Scene Path
+        if (sceneFilePath != null && sceneFilePath != "")
+        {
+            path0 = Application.dataPath + "/Scripts/textfiles/" + sceneFilePath;
+        }
 
         // Read in scene data
         sceneDataPath = Application.dataPath + "/Scripts/textfiles/introscenedata.txt";
@@ -143,12 +155,17 @@ public class DialogueManager : MonoBehaviour
         // If the coroutine is running and you click
         if (crRunning)
         {
-            typingSpeed = 0.001f;
+            typingSpeed = 0.005f;
         }
 
         // Display nothing
         else if (!crRunning && sentences.Count == 0)
         {
+            if (sceneFilePath != null || sceneFilePath != "")
+            {
+                SceneManager.LoadScene("SceneSelector");
+            }
+            
             EndDialogue();
             return;
         }
@@ -269,7 +286,14 @@ public class DialogueManager : MonoBehaviour
         // Attempt to read in a scene from a text file
         try
         {
-            reader = new StreamReader(introSceneFilePaths.Dequeue());
+            if (sceneFilePath != null && sceneFilePath != "")
+            {
+                reader = new StreamReader(path0);
+            }
+            else
+            {
+                reader = new StreamReader(introSceneFilePaths.Dequeue());
+            }
 
             // Read the background at the top of the text file
             line = reader.ReadLine();

@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3541321242865056615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3541321242865056613}
+  - component: {fileID: 3541321242865056614}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3541321242865056613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3541321242865056615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3541321242865056614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3541321242865056615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cbb6b3ca3e779544b044be0094d3c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: bevHappy
+    clip: {fileID: 8300000, guid: 4e760b32266cb4c4894b18a1da61926b, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: nasFinal
+    clip: {fileID: 8300000, guid: 9bd5cee48061cfe418bc40e2535f748e, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: nasNeutral
+    clip: {fileID: 8300000, guid: fdb7bc8b9801b4a4ea0a6c5eabe09a5b, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: nasUnimpressed
+    clip: {fileID: 8300000, guid: 2f9d66ae188453f4f8b6ded0aea25d93, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: nasHappy
+    clip: {fileID: 8300000, guid: 096be4949b3a76848a12e452086d2f85, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriAnnoy
+    clip: {fileID: 8300000, guid: d921b92b4e2e6f1489de5695e7a247fa, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriAnnoy2
+    clip: {fileID: 8300000, guid: ca48e98e769fd0e40b9c16bf554bc829, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriAnnoy3
+    clip: {fileID: 8300000, guid: b923245235ac6d2499a556b8fc39f1c0, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriDistort
+    clip: {fileID: 8300000, guid: 5387acb82c9d7f24784df4cb5eca135f, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriMad
+    clip: {fileID: 8300000, guid: 28f9c1fa8c1cee54587c4acef297a55a, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriNeutral
+    clip: {fileID: 8300000, guid: 26ce53c9a71b2b84e943e7bb314043be, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriNeutral2
+    clip: {fileID: 8300000, guid: 44a79305ce2b69442adb86ee012a856e, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriFinal1
+    clip: {fileID: 8300000, guid: e1ae0d7e4804a0f4f95f3ddd7db28dd1, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: coriFinal2
+    clip: {fileID: 8300000, guid: 1c014c942be904c49b2e8e0a04a480d2, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: crash
+    clip: {fileID: 8300000, guid: 1d595a498b63c0f4ba7e6a204c98ddc2, type: 3}
+    volume: 0.05
+    pitch: 1
+  - name: bevFinal1
+    clip: {fileID: 8300000, guid: f0a1c832d9cc9fa4e8a4e17684a91581, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevFinal2
+    clip: {fileID: 8300000, guid: 7ffa3afbfb1344749b0c32b7bbc17869, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevHappy2
+    clip: {fileID: 8300000, guid: dfa1490c505967a4da9ae7f56bac3d8d, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevMad
+    clip: {fileID: 8300000, guid: a4e5fff8e80865b49a3d8af8b3e8287a, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevMad2
+    clip: {fileID: 8300000, guid: d192bf4294e38a341b1a6f27e4a42dde, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevNeutral
+    clip: {fileID: 8300000, guid: 8ba89348566e61744afd8b07bcd87f20, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevSad
+    clip: {fileID: 8300000, guid: 11e3c0a0d364a91409c63eda68fe8cc3, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: bevSad2
+    clip: {fileID: 8300000, guid: 2bd993cd997f88b419e4e0cca215ba05, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msConf
+    clip: {fileID: 8300000, guid: c6860e8cba4c86048ae555566862e20a, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msFinal
+    clip: {fileID: 8300000, guid: bf42781f92c67214c9006c99fce7436e, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msHappy
+    clip: {fileID: 8300000, guid: fc4ef7972891c6a4888bdf2f1f5ea2b2, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msHappy2
+    clip: {fileID: 8300000, guid: 067348a5ffb63614292d05671837d481, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msIsThatYou
+    clip: {fileID: 8300000, guid: ecfe0ccbb1509cb44b98495972579a92, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msMad
+    clip: {fileID: 8300000, guid: 1345ba3f78e920c4282ce16e5baaca4c, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msMad2
+    clip: {fileID: 8300000, guid: 8b0c1394c460553499cda7e371e7739e, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msMad3
+    clip: {fileID: 8300000, guid: 100d69c44d952314eba7da47ba48337b, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msNeutral
+    clip: {fileID: 8300000, guid: b01a1fe215cf55a45a20b06995702d45, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msNeutral2
+    clip: {fileID: 8300000, guid: 22fb52adfa4df714585a9f050ee189b8, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msReally
+    clip: {fileID: 8300000, guid: 6ed03285a06dc1344bf856a9f9a81b60, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msSad
+    clip: {fileID: 8300000, guid: b2baaa17516326044a3ea67a76f7c8e4, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msSad2
+    clip: {fileID: 8300000, guid: edd0d70fea095d24dace13e8daff364e, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msSad3
+    clip: {fileID: 8300000, guid: 8d73b592b75133d4396a7eeaa7ef4b27, type: 3}
+    volume: 0.8
+    pitch: 1
+  - name: msScared
+    clip: {fileID: 8300000, guid: 23a0ce5244330354aaa360ef52569d42, type: 3}
+    volume: 0.8
+    pitch: 1

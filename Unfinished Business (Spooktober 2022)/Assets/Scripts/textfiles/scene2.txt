@@ -13,12 +13,13 @@ Whispering Guy #1|||Is that a client?
 Whispering Guy #2|||I think it's a host.
 Whispering Guy #1|||Nah we don’t have those.
 Whispering Guy #3|||Yeah, Unfinished Business hasn’t had a host in...uhh
-Whispering Guy #3|||uh...
+Whispering Guy #3|||uh.............................
 Whispering Guy #1|||A realllllllllllllllly long time.
 Whispering Guy #2|||They’re clearly alive though. And they’re staring right at us.
-Whispering Guy #1|||Nonono, see. They're probably just lost and admiring the architecture.
+Whispering Guy #1|||Nonono, see. They're probably just lost and uhmm....
+Whispering Guy #1|||Admiring the architecture...?
 Whispering Guy #3|||These are just the things you pick up on from years of experience, rookie.
-You|||Hello?
+You|||Hello? Is this Unfinished Business?
 Whispering Guy #2|||Told you.
 Whispering Guy #1 + #3|||Beginner’s luck.
 You|||Are you taking applications for hosts at the moment? 
@@ -29,13 +30,14 @@ You|||When can I meet them?
    |||(It also dawns on you in this moment that this person never had legs, and has just been floating around.)
 You|||HOW’D YOU DO THAT?
 Corduroy|coriAnnoy2||(They gesture to their body, or lackthere of.)
-You|||So you're like a poltergeist?
-Corduroy|coriMad||Absolutely NOT like a poltergeist.
+You|||Ok, see, I don't believe in ghosts... so-
+Corduroy|coriAnnoy||Believe it or not reality has a habit of making itself known to those who turn their eye from it.
+You|||Wow, I can't believe I'm meeting a genuine poltergeist.
+Corduroy|coriMad||I am NOT a poltergeist.
 		|||(Something seems to have deeply offended them.)
 Corduroy|coriDistort||I am NOT some common spirit getting off on stealing bodies, or some wash-up poltergeist knocking things over for fun.
 Corduroy|coriNeutral||I. Am a Raiju.
-You|||A what who?
-Corduroy|coriNeutral||A mythological lightning beast.
+Corduroy|||A mythological lightning beast.
 Guy #3||tieghost|They get kind of angry around electricity so we have to keep the lights off when they’re in the building.
 Guy #1||genericghost|Not like we could afford the bill anyway, so it's a win-win!
 You|||Beast? Like the ghost of a dog or something?
