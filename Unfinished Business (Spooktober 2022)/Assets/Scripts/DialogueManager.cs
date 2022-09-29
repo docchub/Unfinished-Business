@@ -354,15 +354,22 @@ public class DialogueManager : MonoBehaviour
         // Say BOO if a new character is talking
         if (audiolines.Peek() != prevSpeaker || prevSpeaker == null)
         {
-            // Don't try to stop any audio when the first audio in the queue plays
-            // Moves character that has stopped speaking off sceen
+            //// Stop any audio when the first audio in the queue plays
             //if (prevSpeaker != null)
             //{
             //    FindObjectOfType<AudioManager>().StopSound(prevSpeaker);
             //}
 
             prevSpeaker = audiolines.Peek();
-            FindObjectOfType<AudioManager>().PlaySound(audiolines.Dequeue());
+
+            if (audiolines.Peek() != "")
+            {
+                FindObjectOfType<AudioManager>().PlaySound(audiolines.Dequeue());
+            }
+            else
+            {
+                audiolines.Dequeue();
+            }
         }
 
         // Cycle through the Queue without playing audio
@@ -381,6 +388,7 @@ public class DialogueManager : MonoBehaviour
         if (characters.Peek() == "empty")
         {
             FindObjectOfType<CharacterMover>().MoveOffScreen();
+            characters.Dequeue();
         }
         else if (characters.Peek() != null)
         {

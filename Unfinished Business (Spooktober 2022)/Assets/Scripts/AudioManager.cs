@@ -23,17 +23,19 @@ public class AudioManager : MonoBehaviour
     /// <param name="name"></param>
     public void PlaySound(string name)
     {
-        foreach(Sound s in sounds)
+        if (name != "")
         {
-            if (s.name == name)
+            foreach (Sound s in sounds)
             {
-                s.Source.Play();
-                return;
+                if (s.name == name)
+                {
+                    s.Source.Play();
+                    return;
+                }
             }
+            // if no sound found...
+            Debug.Log("Could not find the audio.");
         }
-
-        // if no sound found...
-        Debug.Log("Could not find the audio.");
     }
 
     public void StopSound(string name)

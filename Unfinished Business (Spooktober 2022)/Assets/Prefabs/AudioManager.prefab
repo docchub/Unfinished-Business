@@ -138,11 +138,11 @@ MonoBehaviour:
     pitch: 1
   - name: msConf
     clip: {fileID: 8300000, guid: c6860e8cba4c86048ae555566862e20a, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msFinal
     clip: {fileID: 8300000, guid: bf42781f92c67214c9006c99fce7436e, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msHappy
     clip: {fileID: 8300000, guid: fc4ef7972891c6a4888bdf2f1f5ea2b2, type: 3}
@@ -154,45 +154,45 @@ MonoBehaviour:
     pitch: 1
   - name: msIsThatYou
     clip: {fileID: 8300000, guid: ecfe0ccbb1509cb44b98495972579a92, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msMad
     clip: {fileID: 8300000, guid: 1345ba3f78e920c4282ce16e5baaca4c, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msMad2
     clip: {fileID: 8300000, guid: 8b0c1394c460553499cda7e371e7739e, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msMad3
     clip: {fileID: 8300000, guid: 100d69c44d952314eba7da47ba48337b, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msNeutral
     clip: {fileID: 8300000, guid: b01a1fe215cf55a45a20b06995702d45, type: 3}
-    volume: 0.8
+    volume: 0.3
     pitch: 1
   - name: msNeutral2
     clip: {fileID: 8300000, guid: 22fb52adfa4df714585a9f050ee189b8, type: 3}
-    volume: 0.8
+    volume: 0.3
     pitch: 1
   - name: msReally
     clip: {fileID: 8300000, guid: 6ed03285a06dc1344bf856a9f9a81b60, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msSad
     clip: {fileID: 8300000, guid: b2baaa17516326044a3ea67a76f7c8e4, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msSad2
     clip: {fileID: 8300000, guid: edd0d70fea095d24dace13e8daff364e, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msSad3
     clip: {fileID: 8300000, guid: 8d73b592b75133d4396a7eeaa7ef4b27, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: msScared
     clip: {fileID: 8300000, guid: 23a0ce5244330354aaa360ef52569d42, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1

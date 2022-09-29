@@ -2,13 +2,13 @@ void
 |||(Following your previous excursion with the game freak, you plan to meet Michael at their home in the suburbs.)
 |||(You were a little hesitant to reach out with how your last meeting with them ended, but when you did they seemed eager to continue “Dino Boxers” with you.)
 |||(When you arrive, Michael is ecstatic.)
-MS|||EXCELLENT!
+MS|msHappy|msNeutral|EXCELLENT!
 You|||Tubular...?
-MS|||Most rooiiiighteous!!!
+MS|msHappy2||Most rooiiiighteous!!!
 You|||Baller.
-MS|||GOATED with the awesomesauce~
+MS|msHappy||GOATED with the awesomesauce~
 You|||Cringe.
-MS|||You must kill your inner cringe. Namaste.
+MS|msNeutral||You must kill your inner cringe. Namaste.
 |||(Eventually the two of you go down to the basement to continue the game of “Dino Boxers: Conquerors”.)
 |||(Together with Michael’s guidance, you reach the finals of the tournament.)
 |||(It was a difficult road. Your mentor, Captain Yeehaw, midway through the game betrayed you.)
@@ -17,20 +17,20 @@ MS|||You must kill your inner cringe. Namaste.
 |||(You had to admit not even you were expecting this twist.)
 |||(Now at the end of the game, all that’s left to do is defeat the impostor, and claim your title as the Dino Box Champion.)
 |||(Just before you can start the final battle however...)
-MS|||Hey, what time is it?
+MS|msConf||Hey, what time is it?
 |||(You check the clock on the console.)
 You|||Says it's about 4.
 |||(You hear the door upstairs unlock, open and close.)
-MS|||Shit you need to get out, now.
+MS|msScared||Shit you need to get out, now.
 You|||Wait why, what’s wrong?
-MS|||Just go! NOW!
+MS|msHappy2||Just go! NOW!
 MS|||Climb out through the window!
 You|||Why can’t I just go upstairs? I thought this was your house?
-MS|||Listen, she can’t see you here. Please just go.
+MS|msScared||Listen, she can’t see you here. Please just go.
 You|||Shit...
 |||(You clear off the many box sets of various anime and shows about people in spandex on a spaceship and climb out the window.)
 |||(Michael looks up to you as you step out.)
-MS|||I’m really sorry about this, I’ll make it up to you though I promise, ok?
+MS|msSad||I’m really sorry about this, I’ll make it up to you though I promise, ok?
 |||(You hear a girl’s voice from upstairs.)
 Girl|||Hellooooo? Ma, you there?
 |||(MS panics and starts trying to fly out and phase through the walls, but forgets he’s holding the ChintenmoTM.
@@ -39,6 +39,6 @@ Girl|||Hellooooo? Ma, you there?
 |||(She looks confused at first, glancing around the room, you duck out of the way.)
 |||(You and Michael watch then as she opens and turns on the device, as it lights up her eyes go wide.)
 Girl|||Dad...?
-|||(The girl is stifling tears looking at the handheld game console.)
+||empty|(The girl is stifling tears looking at the handheld game console.)
 |||(You go to speak to Michael, but he’s nowhere to be seen.)
 |||(Left with no other choice, you decide to call it a night and drive back to the city...)

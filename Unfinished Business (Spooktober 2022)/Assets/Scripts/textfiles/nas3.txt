@@ -3,48 +3,48 @@ spraypaint
 |||(She also sent pictures of all of her 11 dogs.)
 |||(They are very cute.)
 |||(Soon, the day of the interview came, and you went to meet Nas as usual by the skate park.)
-Nas|||You know what you’re doing?
+Nas|nasNeutral|nasNeutral|You know what you’re doing?
 You|||I’ll be fine I think.
 You|||So long as you don’t throw me any curveballs.
-Nas|||You know I think the person getting interviewed is supposed to be the nervous one normally.
+Nas|nasUnimpressed||You know I think the person getting interviewed is supposed to be the nervous one normally.
 You|||I don’t know, I’m pretty much set on letting you use me for the 24 hours.
 You|||I guess I just want to know more about you at this point.
-Nas|||I’ll bite, what do you want to know?
+Nas|nasNeutral||I’ll bite, what do you want to know?
 You|||Why do you only have one eye?
 Nas|||Oh I got stabbed. 
 Nas|||That what you were expecting?
 You|||(NO)
 You|||I guess more or less...
-Nas|||I’m just joshin ya. I used to wear my hair to the side so it covered my eye.
+Nas|nasNeutral||I’m just joshin ya. I used to wear my hair to the side so it covered my eye.
 Nas|||Guess that translated to my spectral form or whatever.
 Nas|||Though I did *almost* get stabbed in the eye once...
 Nas|||Pissed off that Louis kids’ parents.
-Nas|||Mama Mia and Papa Louis they’re called.
+Nas|nasUnimpressed||Mama Mia and Papa Louis they’re called.
 Nas|||Owed them quite a bit of money at one point...
 Nas|||My babies are not cheap.
-Nas|||Not proud of it, but sometimes you have no other choice, yknow?
+Nas|nasNeutral||Not proud of it, but sometimes you have no other choice, yknow?
 You|||(*screaming*)
 You|||mhm. mhm.
 You|||So that’s your unfinished business.
 Nas|||Not exactly.
 Nas|||You think I’m the type to worry about paying off people after I die?
-Nas|||Hellllllll no.
+Nas|nasUnimpressed||Hellllllll no.
 Nas|||I need to make sure my babies are taken care of.
 You|||Your dogs?
-Nas|||I can’t leave until I know someone will take good care of them while I’m gone...
+Nas|nasNeutral||I can’t leave until I know someone will take good care of them while I’m gone...
 You|||If that’s all you needed, then why did you break the 24 hour policy so much?
 Nas|||It just wasn’t enough time.
 Nas|||I couldn’t give my pups a lifetime of care in 24 hours.
 Nas|||And hell if I trust any of those randos from UB to take care of them after a few days of interviews.
 Nas|||It was just easier to take care of them myself with a physical body.
 You|||Still... you shouldn’t have stolen their bodies.
-Nas|||I can tell you’ve never had pets.
+Nas|nasNeutral||I can tell you’ve never had pets.
 You|||Either way, I still need to know you’re not going to steal my body if we sign together.
 Nas|||If I promised you I wouldn’t, would you believe me?
 You|||If I promised you I’d take care of them, would you believe me?
 |||(There’s a silence...)
-Nas|||Fuck I hate stalemates.
-|||(It's then that you hear a shrill bark.)
+Nas|nasNeutral||Fuck I hate stalemates.
+||empty|(It's then that you hear a shrill bark.)
 |||(You and Nas turn to see two badass looking pizza themed mobsters.)
 |||(Both of them are wearing an eyepatch that looks like pepperoni, and each of their suits have the pattern of a pizza.)
 Nas|||Mama Mia... Papa Pia...
@@ -59,7 +59,7 @@ You|||Those don’t belong to you.
 Mama Mia|||That’s-a where you’re wrong.
 Mama Mia|||This is-a merely “collateral”.
 Papa Louis|||We were-a owed. And so we are just-a takin what belongs to us.
-Nas|||Oh hell no.
+Nas|nasNeutral||Oh hell no.
 |||(Nas looks to you.)
 Nas|||Lets fuck em up.
 You|||I’m with you.
@@ -96,12 +96,12 @@ Nas|||This is payback for everyone whose lives you ruined, you greasy pizza lovi
 |||(All 11 come running up to you, trying to lick your wounds.)
 |||(You can’t help but smile as the tiny dogs swarm you.)
 |||(However, in that moment you realize that Nastasia is no longer possessing your body.)
-|||(You look over to see her floating behind you, watching the pups enamored with you.)
-Nas|||I think I trust you.
+||nasNeutral|(You look over to see her floating behind you, watching the pups enamored with you.)
+Nas|nasHappy||I think I trust you.
 |||(You nod.)
 You|||Are you sure you don’t want to play with them one more time?
 |||(One of them licks your hand.)
 Nas|||It would just make it harder...
-Nas|||Look after them ok. If I find out you haven’t, I’ll come back down and feed you to them myself.
-|||(As she fades away you hear a few of the dogs whimper sadly. But you’re able to comfort them.)
+Nas|nasFinal||Look after them ok. If I find out you haven’t, I’ll come back down and feed you to them myself.
+||empty|(As she fades away you hear a few of the dogs whimper sadly. But you’re able to comfort them.)
 |||(And not long after, Nastasia is gone.)
