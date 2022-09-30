@@ -1,4 +1,4 @@
-spraypaint
+void
 		|||(A wave of dust hits you as you step through the beat up old door and enter the makeshift offices of ‘Unfinished Business’.)
 		|||(You watch as a bunch of ghosts float stationary while hovering above a few typewriters.)
 		|||(Most of them seem to be broken or have keys missing.)

@@ -30,7 +30,7 @@ MS|msScared||Listen, she can’t see you here. Please just go.
 You|||Shit...
 |||(You clear off the many box sets of various anime and shows about people in spandex on a spaceship and climb out the window.)
 |||(Michael looks up to you as you step out.)
-MS|msSad||I’m really sorry about this, I’ll make it up to you though I promise, ok?
+MS|||I’m really sorry about this, I’ll make it up to you though I promise, ok?
 |||(You hear a girl’s voice from upstairs.)
 Girl|||Hellooooo? Ma, you there?
 |||(MS panics and starts trying to fly out and phase through the walls, but forgets he’s holding the ChintenmoTM.

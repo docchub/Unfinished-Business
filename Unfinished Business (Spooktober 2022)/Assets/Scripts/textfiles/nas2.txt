@@ -8,18 +8,18 @@ spraypaint
 |||(Last time you met you exchanged contact info, and later that day you messaged her...)
 You|||”Hi again, it's me, just checking in to see if you were still interested in setting up a day to have the interview?”
 |||(The next day at 4 in the morning...)
-Nastasia|nasNeutral||”aaaa I forgor”
+Nastasia|||”aaaa I forgor”
 You|||”That’s ok, what time are you free?”
 |||(2 days later...)
-Nastasia|nasNeutral||”akdljfsdg my bad dude”
+Nastasia|||”akdljfsdg my bad dude”
 Nastasia|||”was visiting some friends in sansburo”
 Nastasia|||”totes blanked xD”
 You|||”Again, that’s alright, I just need to know when we can meet up.”
 |||(Later that night...)
-Nastasia|nasHappy||”Anytime works for me!”
+Nastasia|||”Anytime works for me!”
 You|||”Great, how about tomorrow morning?”
 |||(The next afternoon...)
-Nastasia|nasNeutral||”bro i felled aslepp”
+Nastasia|||”bro i felled aslepp”
 |||(This continued for several more days until you finally just decided to go back to the skatepark to meet her yourself.)
 |||(You walk in to see something unusual.)
 |||(A number of teenage kids, all decked out in pizza themed roller blades, are busy doing all sorts of tricks around the place.)
@@ -67,19 +67,19 @@ You|||Just doing my job.
 Nas|||...................................
 Nas|nasNeutral||I guess we’ll see then.
 |||(You breathe a sigh of relief.)
-Nas|nasNeutral||I’m sorry for being a bitch about it. I can tell you really are trying to help.
+Nas|||I’m sorry for being a bitch about it. I can tell you really are trying to help.
 You|||What’s bothering you? Why haven’t you been answering your phone?
 Nas|nasNeutral||You know I wasn’t lying all the time, I actually was distracted a lot the last few days.
 You|||What’ve you been doing?
 Nas|nasHappy||I have a few dogs. Back from when I was alive.
 Nas|||It's hard to like this, but I still have to look after them.
 You|||Wait, really that’s it?
-Nas|nasNeutral||You’d be surprised how hard it is to get food for, walk, and feed 11 chihuahuas as a ghost.
+Nas|||You’d be surprised how hard it is to get food for, walk, and feed 11 chihuahuas as a ghost.
 You|||Wait wait wait wait wait, 11 chihuahuas?
-Nas|nasNeutral||Is that weird?
+Nas|||Is that weird?
 You|||(YES)
 You|||No I don’t think so...
-Nas|nasNeutral||Oh good.
+Nas|||Oh good.
 |||(She seems oddly relieved by that.)
 Nas|nasNeutral||But yeah, I can do that interview now if you need.
 You|||Uh........

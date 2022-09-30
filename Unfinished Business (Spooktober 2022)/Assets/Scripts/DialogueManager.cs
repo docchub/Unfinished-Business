@@ -12,6 +12,7 @@ using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -73,6 +74,10 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     string sceneFilePath;
     private string path0;
+
+    // SFX
+    string currentSpeaker;
+    bool playAudio;
 
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
@@ -161,7 +166,7 @@ public class DialogueManager : MonoBehaviour
         // Display nothing
         else if (!crRunning && sentences.Count == 0)
         {
-            if (sceneFilePath != null || sceneFilePath != "")
+            if (sceneFilePath != "" || introSceneFilePaths.Count == 0)
             {
                 SceneManager.LoadScene("SceneSelector");
             }
@@ -176,8 +181,23 @@ public class DialogueManager : MonoBehaviour
             // Reset typing speed
             typingSpeed = 0.05f;
 
+            // Blip References
+            currentSpeaker = speakers.Peek();
+
+            // Only play blips when no voice acting
+            if (audiolines.Peek() == "")
+            {
+                playAudio = true;
+            }
+            else
+            {
+                playAudio = false;
+            }
+
+            // Voice acting
             PlayAudio();
 
+            // Characters
             if (characters.Peek() != "")
             {
                 PlaceCharacter();
@@ -206,10 +226,27 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence (string sentence)
     {        
         dialogueText.text = "";
+        int counter = 1;
 
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
+
+            if (typingSpeed == 0.05f)
+            {
+                if (counter % 3 == 0)
+                {
+                    PlayBlip();
+                }
+            }
+            else
+            {
+                if (counter % 14 == 0)
+                {
+                    PlayBlip();
+                }
+            }
+            counter++;
 
             // waits a single frame
             yield return new WaitForSecondsRealtime(typingSpeed);
@@ -218,6 +255,37 @@ public class DialogueManager : MonoBehaviour
         // Call once sentence is spelled out
         crRunning = false;
         StopAllCoroutines();
+    }
+
+    void PlayBlip()
+    {
+        if (playAudio)
+        {
+            if (currentSpeaker == "Bev" || currentSpeaker == "Beverlee" || (currentSpeaker == "???" && sceneFilePath == "bev1.txt"))
+            {
+                FindObjectOfType<AudioManager>().PlaySound("bevSFX");
+            }
+            else if (currentSpeaker == "Nas" || currentSpeaker == "Nastasia")
+            {
+                FindObjectOfType<AudioManager>().PlaySound("nasSFX");
+            }
+            else if (currentSpeaker == "MS")
+            {
+                FindObjectOfType<AudioManager>().PlaySound("msSFX");
+            }
+            else if (currentSpeaker == "Corduroy" || (currentSpeaker == "???" && sceneFilePath == ""))
+            {
+                FindObjectOfType<AudioManager>().PlaySound("playerSFX");
+            }
+            else if (currentSpeaker == "???" && sceneFilePath == "corduroyfinale.txt")
+            {
+                FindObjectOfType<AudioManager>().PlaySound("corruptSFX");
+            }
+            else
+            {
+                FindObjectOfType<AudioManager>().PlaySound("ghostSFX");
+            }
+        }
     }
 
     /// <summary>

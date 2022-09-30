@@ -29,13 +29,13 @@ You|||When can I meet them?
    ||coriNeutral|(Phasing through the door at that moment is the same strange mascot character you saw last night.)
    |||(It also dawns on you in this moment that this person never had legs, and has just been floating around.)
 You|||HOW’D YOU DO THAT?
-Corduroy|coriAnnoy2||(They gesture to their body, or lackthere of.)
+|||(They gesture to their body, or lackthere of.)
 You|||Ok, see, I don't believe in ghosts... so-
 Corduroy|coriAnnoy||Believe it or not reality has a habit of making itself known to those who turn their eye from it.
 You|||Wow, I can't believe I'm meeting a genuine poltergeist.
 Corduroy|coriMad||I am NOT a poltergeist.
 		|||(Something seems to have deeply offended them.)
-Corduroy|coriDistort||I am NOT some common spirit getting off on stealing bodies, or some wash-up poltergeist knocking things over for fun.
+Corduroy|||I am NOT some common spirit getting off on stealing bodies, or some wash-up poltergeist knocking things over for fun.
 Corduroy|coriNeutral||I. Am a Raiju.
 Corduroy|||A mythological lightning beast.
 Guy #3||tieghost|They get kind of angry around electricity so we have to keep the lights off when they’re in the building.

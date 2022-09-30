@@ -66,31 +66,31 @@ MonoBehaviour:
     pitch: 1
   - name: coriAnnoy
     clip: {fileID: 8300000, guid: d921b92b4e2e6f1489de5695e7a247fa, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriAnnoy2
     clip: {fileID: 8300000, guid: ca48e98e769fd0e40b9c16bf554bc829, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriAnnoy3
     clip: {fileID: 8300000, guid: b923245235ac6d2499a556b8fc39f1c0, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriDistort
     clip: {fileID: 8300000, guid: 5387acb82c9d7f24784df4cb5eca135f, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriMad
     clip: {fileID: 8300000, guid: 28f9c1fa8c1cee54587c4acef297a55a, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriNeutral
     clip: {fileID: 8300000, guid: 26ce53c9a71b2b84e943e7bb314043be, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriNeutral2
     clip: {fileID: 8300000, guid: 44a79305ce2b69442adb86ee012a856e, type: 3}
-    volume: 0.8
+    volume: 1
     pitch: 1
   - name: coriFinal1
     clip: {fileID: 8300000, guid: e1ae0d7e4804a0f4f95f3ddd7db28dd1, type: 3}
@@ -195,4 +195,28 @@ MonoBehaviour:
   - name: msScared
     clip: {fileID: 8300000, guid: 23a0ce5244330354aaa360ef52569d42, type: 3}
     volume: 1
+    pitch: 1
+  - name: corruptSFX
+    clip: {fileID: 8300000, guid: 5b8af917d419d2b448214260de089464, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: ghostSFX
+    clip: {fileID: 8300000, guid: 8e05aeba97b740e46b77d6fa1b881a0c, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: bevSFX
+    clip: {fileID: 8300000, guid: d946b4ff3e9a3f14d8ed6946046081f9, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: nasSFX
+    clip: {fileID: 8300000, guid: 848200dd6e7c82e4da64c5a29065bccb, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: msSFX
+    clip: {fileID: 8300000, guid: c08056b7569998e49a6ef327e10ad731, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: playerSFX
+    clip: {fileID: 8300000, guid: e2cb19b9a53292145bcccf0679df9c18, type: 3}
+    volume: 0.2
     pitch: 1
