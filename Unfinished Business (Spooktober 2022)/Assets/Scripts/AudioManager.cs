@@ -29,6 +29,10 @@ public class AudioManager : MonoBehaviour
             {
                 if (s.name == name)
                 {
+                    if (s.name == "ubmaintheme")
+                    {
+                        s.Source.loop = true;
+                    }
                     s.Source.Play();
                     return;
                 }

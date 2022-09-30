@@ -194,6 +194,12 @@ public class DialogueManager : MonoBehaviour
                 playAudio = false;
             }
 
+            // Change to weirdscape when...
+            if (currentSpeaker == "???" && sceneFilePath == "corduroyfinale.txt")
+            {
+                FindObjectOfType<Backgrounds>().DrawBackground("weirdscape");
+            }
+
             // Voice acting
             PlayAudio();
 
