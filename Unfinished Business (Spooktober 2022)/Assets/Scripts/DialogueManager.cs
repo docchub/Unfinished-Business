@@ -79,6 +79,9 @@ public class DialogueManager : MonoBehaviour
     string currentSpeaker;
     bool playAudio;
 
+    // Auto mode
+    bool auto;
+
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
     // ------------------------------------------------------------------------
@@ -122,6 +125,17 @@ public class DialogueManager : MonoBehaviour
         {
             //Debug.Log("You clicked.");
             DisplayNextSentence();
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log("enabled/disabled automode");
+            auto = !auto;
+        }
+
+        if (auto)
+        {
+
         }
     }
 
@@ -258,9 +272,18 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSecondsRealtime(typingSpeed);
         }
 
-        // Call once sentence is spelled out
-        crRunning = false;
-        StopAllCoroutines();
+        if (auto)
+        {
+            yield return new WaitForSecondsRealtime(0.5f);
+            crRunning = false;
+            DisplayNextSentence();
+        }
+        else
+        {
+            // Call once sentence is spelled out
+            crRunning = false;
+            StopAllCoroutines();
+        }
     }
 
     void PlayBlip()
