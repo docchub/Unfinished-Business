@@ -29,15 +29,17 @@ public class Auto : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            auto = !auto;
-            
-            switch (auto)
-            {
-                case true: t.color = Color.green;
-                    break;
-                case false: t.color = Color.white;
-                    break;
-            }
+            auto = !auto;           
+        }
+
+        switch (auto)
+        {
+            case true:
+                t.color = Color.green;
+                break;
+            case false:
+                t.color = Color.white;
+                break;
         }
     }
 }

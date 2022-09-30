@@ -45,3 +45,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}
+  sceneFilePath: 
+  sounds:
+  - name: bevSFX
+    clip: {fileID: 8300000, guid: d946b4ff3e9a3f14d8ed6946046081f9, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: nasSFX
+    clip: {fileID: 8300000, guid: 848200dd6e7c82e4da64c5a29065bccb, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: msSFX
+    clip: {fileID: 8300000, guid: c08056b7569998e49a6ef327e10ad731, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: playerSFX
+    clip: {fileID: 8300000, guid: e2cb19b9a53292145bcccf0679df9c18, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: corruptSFX
+    clip: {fileID: 8300000, guid: 5b8af917d419d2b448214260de089464, type: 3}
+    volume: 0.2
+    pitch: 1
+  - name: ghostSFX
+    clip: {fileID: 8300000, guid: 8e05aeba97b740e46b77d6fa1b881a0c, type: 3}
+    volume: 0.2
+    pitch: 1

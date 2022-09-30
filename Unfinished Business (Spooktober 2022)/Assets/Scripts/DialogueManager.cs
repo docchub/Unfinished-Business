@@ -77,8 +77,11 @@ public class DialogueManager : MonoBehaviour
     string currentSpeaker;
     bool playAudio;
 
+    [SerializeField]
+    Sound[] sounds;
+
     // Auto mode
-    bool auto;
+    static bool auto;
 
     // ------------------------------------------------------------------------
     // METHODS ----------------------------------------------------------------
@@ -95,6 +98,16 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
 
         dialogue = new Dialogue();
+
+        // Ready blip sfx
+        foreach (Sound s in sounds)
+        {
+            s.Source = gameObject.AddComponent<AudioSource>();
+            s.Source.clip = s.clip;
+
+            s.Source.volume = s.volume;
+            s.Source.pitch = s.pitch;
+        }
 
         //// Testing path
         //path = Application.dataPath + "/testscene.txt";
@@ -255,7 +268,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                if (counter % 14 == 0)
+                if (counter % 6 == 0)
                 {
                     PlayBlip();
                 }
@@ -286,27 +299,27 @@ public class DialogueManager : MonoBehaviour
         {
             if (currentSpeaker == "Bev" || currentSpeaker == "Beverlee" || (currentSpeaker == "???" && sceneFilePath == "bev1.txt"))
             {
-                FindObjectOfType<AudioManager>().PlaySound("bevSFX");
+                sounds[0].Source.Play();
             }
             else if (currentSpeaker == "Nas" || currentSpeaker == "Nastasia")
             {
-                FindObjectOfType<AudioManager>().PlaySound("nasSFX");
+                sounds[1].Source.Play();
             }
             else if (currentSpeaker == "MS")
             {
-                FindObjectOfType<AudioManager>().PlaySound("msSFX");
+                sounds[2].Source.Play();
             }
             else if (currentSpeaker == "Corduroy" || (currentSpeaker == "???" && sceneFilePath == ""))
             {
-                FindObjectOfType<AudioManager>().PlaySound("playerSFX");
+                sounds[3].Source.Play();
             }
             else if (currentSpeaker == "???" && sceneFilePath == "corduroyfinale.txt")
             {
-                FindObjectOfType<AudioManager>().PlaySound("corruptSFX");
+                sounds[4].Source.Play();
             }
             else
             {
-                FindObjectOfType<AudioManager>().PlaySound("ghostSFX");
+                sounds[5].Source.Play();
             }
         }
     }
