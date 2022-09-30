@@ -1,0 +1,91 @@
+grassnight
+|||(Your last encounter with Michael ended less than ideally. This seemed to have become a recurring theme of your time together.)
+|||(You thought about going to Corduroy for advice, but decided against it.)
+|||(After all, if Michael was supposedly the easiest client, then why was he giving you as much trouble as he was.)
+|||(As much as he denied knowing it, it was clear Michael had something holding him back. Some unfinished business.)
+|||(Whether out of concern, or some strange sense of obligation, you became determined to confront him regarding the matter.)
+|||(Driving out to the suburbs you half expected to find the house empty.)
+|||(It was either that or whatever family that lived there would be home instead.)
+||msNeutral|(However, to your surprise, you find the ghost Michael drifting passively watching the lit up house.)
+You|||Michael...
+MS|||. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+MS|msNeutral||How can I help, dear interviewer?
+|||(His voice is strained.)
+You|||What happened Michael? Who was that girl?
+MS|msSad||Oh that haha... Just someone I used to know.
+You|||Your daughter...right?
+MS|msMad2||yeah.......
+You|||What’s her name?
+MS|||Lucy.......
+You|||You should talk to her. Possess me. I’ll help you.
+MS|msNeutral||What’s the point...?
+MS|||I died so long ago, she was so young. She probably doesn’t even remember me.
+MS|||Even if she does, what’s an apology almost a decade later going to matter?
+MS|||I’ve already waited too long, there’s no point. I’ll just hurt her all over again.
+You|||She still misses you, man.
+You|||You didn’t see it but when she found your old game she almost started crying.
+You|||You clearly still mean the world to her.
+You|||It doesn’t matter how long it's been, people don’t just go away like that.
+You|||Those memories stick with you.
+You|||That kind of love doesn’t just disappear.
+You|||It’s never too late to try...
+|||(Michael sits with your words for a minute...)
+|||(His face squints like he just downed 20 lemons, getting red, as he starts tearing up.)
+|||(It would be almost comical...)
+MS|||Fuck man :’)
+|||(You hold your hand out for him.)
+||empty|(He accepts your hand, and as you touch he begins to possess your body.)
+|||(Together you knock on the door to the old house. The girl you saw the other day, Lucy, answers.)
+|||(At first you’re worried that Michael will sound like a crazy person if he tries to say that you’re Lucy’s long lost father possessing the body of some rando.)
+MS|msHappy2||Family code 153, Gamma Sigma Trigonometry
+|||(However, to your chagrin, it appears that their family has a protocol for this.)
+Lucy|||Yo, did my dad actually possess you?
+Lucy|||You’re not hurting them are you?
+MS|msNeutral||Nah, they have protocols and stuff. It's a whole bureaucracy :p
+Lucy|||Daaaang. That sucks bro.
+Lucy|||My old man, in league with the 1%?
+Lucy|||Never thought I'd see the day.
+MS|||You'd be surprised, they're actually pretty retro.
+MS|||Old rotary phones. Genuine typewriters.
+Lucy|||Oh thank god, you had me worried for a moment there.
+Lucy|||But is that...why you took so long to come back?
+MS|msSad||...No, I’m sorry Lulu. I was stupid and afraid and-
+Lucy|||stopstopstopstop you’re gonna make me cry
+MS|msIsThatYou||Lu...
+|||(She jumps at you, wrapping her arms around you. You can feel the tears moistening your shirt.)
+|||(There’s also a good degree of snot.)
+Lucy|||I don’t care if it's in a stranger’s body. I don’t care if they smell like old newspapers. And I don’t care if it's years later...
+Lucy|||I thought I'd never see you again...
+Lucy|||I’m just so happy you're back...
+MS|msSad||Oh Lu... I can’t stay.
+Lucy|||Why not?
+|||(Sniffling, Lucy looks like she’s about to burst out in a full sob.)
+MS|||It wouldn’t be fair to this person. It’s not my body.
+MS|msNeutral2||Also the narcs made it so I can only borrow them for a day tops :p
+MS|||They'll be pretty mad if I don't give it back :/
+|||(Lucy giggles through her tears at that.)
+Lucy|||Come on, we can take them.
+Lucy|||I don’t want you to go... :’))
+MS|msSad||I know Lu... I know... :’’’’))
+MS|msFinal|msNeutral|I’m still not ready to say goodbye. But I guess I never really would be, huh. I’m sorry for making you wait so long.
+Lucy|||Dad!
+MS|msSad||I love you Lulu...
+||empty|(A strange force of energy begins to lift off you, as it does you see a faint green glow coming off your body...)
+|||(As the lights fade, Lucy wails.)
+|||(You do your best to comfort her, as Michael S. Croft has passed on to the other side.)
+|||(After some time you get up to leave. As you turn...)
+Lucy|||Wait. Was it you that was playing “Dino Boxers: Conqueror”?
+You|||Yeah... Me and Michael played together...
+Lucy|||That was my favorite game as a kid.
+Lucy|||I lost it after he passed away, I never actually got to beat it.
+Lucy|||Always got stuck on the final boss :’)
+|||(She chuckles, still sniffling.)
+You|||You should check the save file again. I think your dad left you a little present there.
+|||(You smile, waving, as the two of you part ways.)
+|||(As you start your car and begin to drive off, you wonder if Lucy would be able to defeat the final boss.)
+|||(During your playthrough Michael had insisted on only using the lower rank monsters, saying it was a “self imposed challenge”.)
+|||(He also made a point of releasing any of your dinosaurs that went unconscious during a match.)
+|||(Coming up to the final battle you only really had a few decent fighters left...)
+|||(Come to think of it, you were still wondering what would happen- 
+|||(-to the imposter and the original Captain Yeehaw after they were revealed in the final fight...)
+|||(You decided to buy a copy for yourself later...)

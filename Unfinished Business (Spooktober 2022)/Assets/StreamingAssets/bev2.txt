@@ -1,0 +1,75 @@
+grassday
+|||(A few days following your initial interview with Beverlee, you decide to make good on your obligations, and return to the park to meet her.)
+|||(Maybe with time to think, she’d come up with a better solution.)
+Bev||bevNeutral|I WANT YOU TO HELP ME BURN THAT BITCH’S NEST TO THE GROUND
+You|||.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+You|||I’m sorry, could you say that again?
+Bev|bevNeutral||The lady will NOT repeat herself.
+Bev|||If I cannot be queen, then my sister’s kingdom shall burn.
+Bev|bevMad||A heavenly inferno of divine vengeance. This we shall bring down upon them.
+You|||I don’t know if that’s a great idea...
+Bev|bevNeutral||They’re merely insects to you are they not?
+Bev|||It should be no trouble as I understand it.
+You|||What about your unfinished business? If you can’t be queen you’ll be stuck here won’t you?
+Bev|||Perhaps, but I fear my heart will never know peace until that harlot queen rests buried in the dirt.
+You|||What’d she do that upset you so much?
+Bev|bevMad||Have you gone deaf, or are you merely as donkey brained as I’d first believed?
+Bev|||They have certificates for that, you know.
+Bev|||My sister exiled me, forced me out of my home!
+You|||But before that, you must’ve been close, right?
+Bev|||HA! Such a notion is obscene.
+Bev|bevNeutral||That wench has always been trying for my throne, ever since we were but a drop of nectar on our father’s wing.
+Bev|||She is beyond any redemption. Much less my *forgiveness* as you insinuate.
+You|||But what if-
+Bev|||BUT NOTHING
+Bev|bevMad||You forget your place, peasant.
+Bev|||Enough of these pleasantries. You will be my sword, whether you like it or not.
+|||(In that moment the spectral bee dashes at you with unnatural speed. You barely manage to avoid her before she changes her trajectory and slams into your back.)
+||empty|(You feel a rush of cold, as Beverlee has taken control of your body.)
+Bev|bevMad||Eugh, I will never grow used to these lumbering sacks of meat.
+|||(You feel your control of your body pushed out of reach, your consciousness pushed to the back of your mind- )
+|||(-sinking further and further away as Beverlee exerts her will.)
+|||(Beverlee turns to a nearby tree, and you realize that within it is a massive beehive.)
+|||(Eying the hive, Beverlee finds a large stone off the ground.)
+|||(However, as she goes to grab it you hear a yipping bark.)
+|||(A small dog on a leash running from its owner to inspect you.)
+Friendly Chihuahua|||*yip* *yip*
+|||(Beverlee shrieks, absolutely terrified.)
+||bevNeutral|(You feel the drowning sensation leave your body as Beverlee flees the cute little mangy beast, no longer possessing you.)
+You|||Bev wait-
+|||(The small dog pulls your attention back to it. You pet them. The puppy chirps pleased before you run off in pursuit of Beverlee.)
+|||(Chasing after Beverlee you find her resting on the seat of the swingset the two of you first met.)
+|||(She looks up at you ashamed...)
+You|||What the hell was that back there?
+You|||Why did you steal my body?
+You|||And what was with that dog?
+|||(You see now that the scorned bee princess is fully ugly crying.)
+Bev|bevSad||You wouldn’t understand. 
+Bev|||No one understands.
+Bev|||That sort of betrayal... 
+Bev|||I’m a good person.
+Bev|||I’m a good person.
+Bev|bevSad2||I’m a good person, right?
+Bev|||I don’t deserve this, ... right?
+|||(Stunned, you find yourself at a loss for words.)
+Bev|||I must seem like a loon.
+You|||Not at all princess...
+|||(Hesitantly, you slowly dip into a curtsy.)
+You|||What troubles you my liege?
+|||(She looks up, seeming to appreciate the gesture.)
+Bev|bevSad||When I was exiled, I didn’t last long on my own...
+Bev|||Almost as soon as I was thrown out.
+Bev|||A mangy imp...
+Bev|||A dog just like that ate me.
+Bev|||That’s how I died.
+Bev|||Or at least that’s what I thought would happen, I stung the poor thing’s mouth a few too many times.
+Bev|||I fell soon after.
+Bev|||Is there not a more shameful end for a princess of the hive?
+|||(She looks longingly at the tree in which her hive had made their home.)
+You|||Bev, why did you possess me like that? What the hell were you thinking?
+You|||We could have worked something out.
+You|||This was just wrong...
+Bev|bevFinal1||I just wanted to be queen... is that really so wrong?
+|||(There’s a tense silence...)
+Bev|||You should return to your office, peasant. There is no more you can do for me... 
+||empty|(Lacking the heart to stay, you part ways with Princess Beverlee, and return to the offices at Unfinished Business.)

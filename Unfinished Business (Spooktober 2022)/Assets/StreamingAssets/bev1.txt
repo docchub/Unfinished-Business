@@ -1,0 +1,67 @@
+grassday
+|||(When you tell them that you’re going to interview Beverlee, Corduroy sighs and gives you directions to a park not too far from the office.)
+|||(A park seems like a strange place to meet for an interview, but you’ll be happy for the outside time.)
+|||(After a quick jaunt you find yourself on the grounds, as instructed.)
+|||(However, when you arrive there is no one to be seen. The children are likely off at school, and the cool kids off somewhere cooler.)
+|||(You decide to wait for Beverlee on the swingset.)
+|||(About a half an hour passes before you feel as though you may have been stood up.)
+|||(By a ghost no less.)
+|||(You are familiar with rejection, and so you know to make your exit now before sinking deeper into its despair.)
+|||(As you stand up from the way-too-short swing set, a tiny voice stops you...)
+???|bevNeutral||It’s about time you showed up, peasant.
+|||(Look around you and don't see anyone.)
+|||(All this ghost business must be getting to your head.)
+|||(Ghosts?)
+|||(Up until recently you didn’t believe they existed.)
+|||(You wondered if you would become a ghost when you died.)
+|||(If ghosts were real, what else is real that you don’t know about?)
+|||(You started having an existential crisis.)
+???|bevMad||Cease your gawking, peasant.
+???|||I will NOT be ignored.
+||bevNeutral|(Turning in the direction of the voice you saw a tiny speck of a transparent body.
+|||(Not the body of a person, but the spectral form of a rotund little bee.)
+???|||Are you finished dribbling from those sickly meat lips, you oaf?
+???|bevNeutral||Royalty should be properly acknowledged, not drooled over like some peasants' bread.
+You|||I’m sorry, but have you seen anyone called Beverlee around here?
+|||(She raises an eyebrow.)
+Bev|||Indeed? Then I must inform you that you are in the presence of one known as Beverlee.
+Bev|bevHappy2||For I am Lady Beverlee Buzzantine, Princess of the Great Hive.
+|||(The Bee curtsies, dipping slightly in the air.)
+You|||Then you’re the one who hired Unfinished Business.
+Bev|bevNeutral||Quite. I do hope revealing my countenance has reminded you to open the dusty vault in the brain where you keep your manners?
+You|||Of course.
+|||(Not wanting to upset, you reply to her curtsy with one of your own.)
+Bev|bevNeutral||We’re due for one of Corduroy’s “interviews”, I suppose?
+You|||You don’t care for them?
+Bev|||While I think it's quite noble of you to offer your body to me, I’d rather just get on with it.
+Bev|bevMad||These formalities are exhausting as I’m sure you know.
+Bev|||Normally I would just take your body now and get this over with, but out of respect for Corduroy, I will comply.
+|||(You laugh nervously. You don’t think she’s lying.)
+You|||To start, I guess I’d like to know what keeps you tied to the living world?
+Bev|bevNeutral||My “unfinished business”, hmm? How forward.
+Bev|||I suppose I should tell you, my family betrayed me.
+Bev|||Before I passed, I was first in line to the throne.
+Bev|||Everything was perfect, I had everything I could ever want, and thousands of adoring subjects to boot.
+Bev|||However, all went wrong when I was *tragically* exiled by my venomous sister, Penelope.
+|||(There’s a great hiss of disdain in her voice...)
+Bev|bevMad||It's all because my mother never taught the girl her place. She knew the throne was mine, yet she couldn’t help but dirty it with her filthy honey suckled hands.
+You|||Your parents didn’t stop her?
+Bev|bevNeutral||Oh please, I never knew my father, and our mother, the late queen, was too self-indulgent to have anything keeping her here after she passed.
+Bev|||That skank waited until our mother was gone to make her move.
+Bev|||We were all grieving when she seized the throne.
+Bev|||She’s a monster. Truly deplorable.
+Bev|||You will help me take back my kingdom.
+Bev|bevHappy2||That is your charge, peasant.
+You|||Forgive me, but are you sure you’re fit to rule in your... state?
+Bev|||True, an otherworldly queen is rather unusual. However, we must do what is best for the hive. Even death cannot end my duties.
+Bev|||I will become the necromantic goddess my people need.
+|||(The tiny bee cackles madly at the thought.)
+You|||But if that’s your unfinished business, wouldn’t you simply disappear once you became queen?
+|||(She stops. It does not appear as though she’d considered this.)
+Bev|||Well... I...
+You|||Beverlee?
+Bev|||Silence. I must think on this.
+Bev|bevNeutral||Return to me another day, peasant.
+Bev|||Your queen demands it.
+||empty|(Her sudden decree echoes with a puzzling force across the field of the park.)
+|||(Not one to argue, you excuse yourself, and return to the office.)

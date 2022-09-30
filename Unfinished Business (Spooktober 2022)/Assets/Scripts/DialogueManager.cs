@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices.ComTypes;
 using TMPro;
-using UnityEditor.Experimental.GraphView;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
@@ -50,7 +48,7 @@ public class DialogueManager : MonoBehaviour
     private string prevSpeaker;
 
     // Time the manager waits before typing next character
-    private float typingSpeed = 0.1f;
+    private float typingSpeed = 0.04f;
 
     // Is the coroutine running?
     private bool crRunning = false;
@@ -98,17 +96,17 @@ public class DialogueManager : MonoBehaviour
 
         dialogue = new Dialogue();
 
-        // Testing path
-        path = Application.dataPath + "/Scripts/textfiles/testscene.txt";
+        //// Testing path
+        //path = Application.dataPath + "/testscene.txt";
 
         // Special Scene Path
         if (sceneFilePath != null && sceneFilePath != "")
         {
-            path0 = Application.dataPath + "/Scripts/textfiles/" + sceneFilePath;
+            path0 = Application.dataPath + "/StreamingAssets/" + sceneFilePath;
         }
 
         // Read in scene data
-        sceneDataPath = Application.dataPath + "/Scripts/textfiles/introscenedata.txt";
+        sceneDataPath = Application.dataPath + "/StreamingAssets/introscenedata.txt";
         introSceneFilePaths = new Queue<string>();
         ReadScenePaths();
 
@@ -131,11 +129,7 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("enabled/disabled automode");
             auto = !auto;
-        }
-
-        if (auto)
-        {
-
+            DisplayNextSentence();
         }
     }
 
@@ -193,7 +187,7 @@ public class DialogueManager : MonoBehaviour
         else if (!crRunning)
         {
             // Reset typing speed
-            typingSpeed = 0.05f;
+            typingSpeed = 0.04f;
 
             // Blip References
             currentSpeaker = speakers.Peek();
@@ -252,7 +246,7 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueText.text += letter;
 
-            if (typingSpeed == 0.05f)
+            if (typingSpeed >= 0.04f)
             {
                 if (counter % 3 == 0)
                 {
@@ -347,7 +341,7 @@ public class DialogueManager : MonoBehaviour
 
             while ((line = reader.ReadLine()) != null)
             {
-                introSceneFilePaths.Enqueue(Application.dataPath + "/Scripts/textfiles/" + line);
+                introSceneFilePaths.Enqueue(Application.dataPath + "/StreamingAssets/" + line);
                 lineNumber++;
             }
         }

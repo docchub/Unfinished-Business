@@ -1,0 +1,78 @@
+void
+		|||(A wave of dust hits you as you step through the beat up old door and enter the makeshift offices of ‘Unfinished Business’.)
+		|||(You watch as a bunch of ghosts float stationary while hovering above a few typewriters.)
+		|||(Most of them seem to be broken or have keys missing.)
+		|||(However, every once and a while you see one of the working keys mysteriously click by itself.)
+		|||(There’s a quiet little cheer from the group each time this happens.)
+Corduroy|coriNeutral|coriNeutral|Come on.
+		|||(As you head to Corduroy’s office you notice the old shoebox they’d been carrying around when you ran into them last night.)
+		|||(Inside the box are a number of ties!)
+		||genericghost|(You see another small group of ghosts are trying to figure out how to tie them.)
+		|||(They are not doing a very good job.)
+You|||Here, let me help.
+   |||(You quickly tie the knot. You are an expert at your craft.)
+Ghost wearing a tie||tieghost|W h o a a a a a a a a a a a a.
+Ghost wearing a tie|||Thank you nice person.
+You|||Anytime!
+   |||(You smile, admiring your work before being pulled away by Corduroy.)
+Corduroy|coriNeutral2|coriNeutral|So.
+Corduroy|||Let me explain how this is going to work.
+You|||Wait, already? Aren’t you supposed to give me an interview?
+Corduroy|coriNeutral||No, see, from now on that’s your job.
+Corduroy|||Recently we’ve undergone some big changes here at Unfinished Business.
+Corduroy|||And in accordance with the new guidelines... 
+Corduroy|||Hosts and clients will be required to undergo an extensive interview process before any selections are to be made.
+You|||Wait when those three said ‘host’ earlier I assumed this was some sort of restaurant thing? I’m not qualified to interview anyone!
+Corduroy|coriNeutral||You’re about the only one who is qualified I’d say.
+Corduroy|||I’ll start from the beginning.
+Corduroy|||Unfinished Business’ mission is to send wandering spirits to the afterlife, or whatever lack thereof, by helping those with hangups in the living world.
+Corduroy|||Your job in all this, is to find a compatible client to allow to possess your body so that they may complete their business
+Corduroy|||and move on to whatever awaits them.
+You|||Wait wait wait, possession?
+Corduroy|coriNeutral2||The higher-ups have implemented a new 24 hour policy to make sure the clients can’t abuse their privileges.
+Corduroy|coriAnnoy3||There was an... incident, which we don’t want to see repeated.
+You|||What happened?
+Corduroy|coriNeutral||So are you in, or out?
+You|||That doesn’t…
+Corduroy|coriNeutral2||Doesn’t matter to me. But I can tell you’re desperate.
+You|||...
+You|||Fine. What do I have to do?
+		|||(Corduroy produces a clipboard and reading glasses.)
+Corduroy|coriNeutral||Currently, the three clients at the top of the waitlist are Beverlee Buzzantine, Nastasia Ravenway, and one Michael S. Croft.
+Corduroy|||Beverlee is at the top of the list, but don’t feel required to go to her first, or at all even.
+Corduroy|||She has a reputation as one of our most difficult clients. Her hosts always complain about being bossed around and overall annoyed with her.
+Corduroy|||There’s even a rumor she tried to pay a host in honey.
+Corduroy|||So if you want to skip to the next client I don’t think anyone would question it.
+		|||(Corduroy clears their throat before continuing.)
+Corduroy|coriAnnoy||Next is Nastasia, that one I’d avoid entirely.
+You|||How come?
+Corduroy|coriNeutral2||She has a reputation for abusing, and even breaking the 24 hour policy.
+Corduroy|||We’ve had more than a few hosts complain about her stealing their bodies for longer than agreed.
+Corduroy|||And even with all that time, they haven’t been able to finish their business in the living world.
+Corduroy|coriAnnoy2||I consider her a lost cause; if you value your time I would do the same.
+You|||...
+Corduroy|coriNeutral||Last one here...
+Corduroy|||Michael is probably one of the easiest clients you could take here. All his hosts until now have given nothing but praise.
+Corduroy|||Overall just a really nice guy from what I hear.
+Corduroy|coriNeutral2||Still, it's strange he hasn’t moved on yet.
+Corduroy|||But, if you’re looking for easy money, he’s the one to go for. And the one I’d personally recommend.
+You|||All of them have had hosts before?
+Corduroy|coriNeutral||These three have been with us for some time actually, Nastasia especially.
+Corduroy|||She was a client here before the policy updates.
+You|||So is it really just those three then?
+Corduroy|coriAnnoy2||Unfortunately-
+		|||(They say, speaking in air quotes)
+Corduroy|coriNeutral2||Most of our other clients have either given up waiting and just wander around pointlessly now.
+Corduroy|||I guess they hope they can forget what’s keeping them here if they distract themselves long enough.
+Corduroy|||Most of the others working here actually have unfinished business in the living world too.
+Corduroy|||They’ve gotten pretty comfy with how things are here though.
+		|||(Corduroy clears their throat.)
+Corduroy|coriNeutral||That’s the long and short of it though.
+Corduroy|||So.
+Corduroy|||Where do you want to start?
+You|||Wait.
+You|||Do you have unfinished business?
+Corduroy|coriAnnoy||None that possessing some poor sack would help with.
+Corduroy|||Now.
+Corduroy|||We’ve got work to do.
+		|||(You nod as Corduroy floats you the list of available clients.)

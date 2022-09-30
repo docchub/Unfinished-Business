@@ -1,0 +1,34 @@
+lights
+   |||(Drifting in the city streets you come across a single churro stand.)
+   |||(An aroma of sweet fried dough and sugar emanates from it, cutting through the musk seeping in from the alleys.)
+   |||(You check your wallet, finding only a few stray coins.)
+You|||Well...
+You|||This is it I guess.
+You|||No money.
+You|||No job.
+You|||No prospects.
+You|||What am I even doing...
+   |||(The lights in the street twinkle like bright beacons for those lost wandering in the city.)
+   |||(Likewise in their radiance, they become blinding, overpowering, assaulting the tired eye.)
+You|||I should just give up already.
+   |crash||*CRASH*
+???|coriAnnoy|coriNeutral|Watch it...
+   |||(Stark white and radiating a cold aura, this character hugs the shadows, avoiding the city lights.)
+   |||(The tired looking creature bends down to pick up a shoebox it dropped.)
+   |||(You see something that looks like fabric peeking out, but you can’t quite make out what it is.)
+You|||Oh my god I’m so sorry!
+You|||I-
+   |||(It only just hit you that you have no idea what you were looking at.)
+You|||Are you one of those mascot characters? Isn’t it a little late for you to be out?
+???|||Nah...
+You|||Ok so what are you supposed to be then?
+???|coriNeutral||A ghost...
+You|||Oh no, I don't believe in ghosts.
+???|||But I'm an actual ghost...
+You|||Oh right, sorry. I’ll play along.
+   |||(The ghost sighs.)
+???|||Whatever... I really need to go.
+You|||Oh right, sorry. See you.
+???|coriAnnoy2||Uh huh...
+   ||empty|(As the mascot leaves you see something else they dropped by accident. It looks like a job pamphlet! Some small company called ‘Unfinished Business’)
+You|||...                                         

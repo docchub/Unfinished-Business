@@ -1,0 +1,92 @@
+spraypaint
+|||(A few days after your first meeting with Nastasia you were finally able to set up a date and time to have your interview.)
+|||(You were warned that Nastasia was historically unreliable and hard to work with.)
+|||(At first, you figured that was mostly due to her breaking the 24 hour policy like Corduroy said.)
+|||(However, the past few days have probably been the most stressful of your life.)
+|||(Not because of any existential threat of losing your body. No.)
+|||(Nastasia has been the single hardest person to plan to meet with that you’ve encountered in your life.)
+|||(Last time you met you exchanged contact info, and later that day you messaged her...)
+You|||”Hi again, it's me, just checking in to see if you were still interested in setting up a day to have the interview?”
+|||(The next day at 4 in the morning...)
+Nastasia|||”aaaa I forgor”
+You|||”That’s ok, what time are you free?”
+|||(2 days later...)
+Nastasia|||”akdljfsdg my bad dude”
+Nastasia|||”was visiting some friends in sansburo”
+Nastasia|||”totes blanked xD”
+You|||”Again, that’s alright, I just need to know when we can meet up.”
+|||(Later that night...)
+Nastasia|||”Anytime works for me!”
+You|||”Great, how about tomorrow morning?”
+|||(The next afternoon...)
+Nastasia|||”bro i felled aslepp”
+|||(This continued for several more days until you finally just decided to go back to the skatepark to meet her yourself.)
+|||(You walk in to see something unusual.)
+|||(A number of teenage kids, all decked out in pizza themed roller blades, are busy doing all sorts of tricks around the place.)
+|||(None of them are wearing helmets.)
+You|||Hey, have any of you kids seen a ghost around here? One eye? Leaves you on read for a week?
+Greasy Faced Skater Boy|||Hey, get out of here you old fart!
+Greasy Faced Skater Boy|||We don’t have to tell you anything!
+|||(The pimple-faced child laughs annoyingly.)
+Kid Doing a Bad Accent|||Who letta this ravioli lookin mamma-mia into my-a fuckin park-a?
+Greasy Faced Skater Boy|||You tell em, Louis!
+Louis|||I dunno-a who you looking for, but if you don’t take-a your pizza pie out of here right-a now. We’re goin’fettuccine on your ass, penne.
+You|||Please, I’m just looking for Nastasia!
+Louis|||That scialatelli? What would you-a want with-a that soggy old-a pizza pie?
+You|||She’s usually around here, I just want to talk to her!
+Louis|||I’ll level with you penne, last I-a heard, she ate the big garganelli. Rest of-a her crew up and vanished after that.
+Louis|||So this is-a our turf now, you comprehend-a?
+You|||Yeah... I *comprehend*.
+|||(The kids all laugh as you begrudgingly make your exit.)
+||nasNeutral|(Once outside you see Nastasia looking bored and annoyed.)
+You|||Were you watching here this whole time?
+Nastasia|nasNeutral||Ugh, no. I just got back. Those Pepperoni kids are painful to look at. 
+Nastasia|||I wouldn’t ‘watch’ them even if my life depended on it.
+Nastasia|||They act all important because their leader Louis’ parents work for the mafia.
+Nastasia|||But that voice...
+Nastasia|nasUnimpressed||THEY’RE NOT EVEN ITALIAN
+Nastasia|||AND IT'S NOT EVEN A GOOD ACCENT
+Nastasia|||Anyway, what are you doing here?
+You|||I’ve been trying to get in touch with you about the interview for days Nastasia!
+Nastasia|nasNeutral||Eugh, just Nas please.
+You|||Fine, but you haven’t given me anything to work with. 
+You|||I need your help if we’re going to make this work.
+Nas|nasNeutral||God finally, I was waiting for you to show a little backbone.
+Nas|||Well, it's a start at least.
+You|||Come on Nas, you’ve been avoiding this and you know it.
+Nas|||...............
+You|||Let me help you.
+Nas|nasNeutral||Why do you think you’ll be any different from the others?
+You|||I’m sorry?
+Nas|nasNeutral||No one else has been able to help me.
+Nas|||What makes you think you’re any different from them?
+You|||I’m still here aren’t I?
+Nas|nasNeutral||For how long, huh?
+You|||Long as it takes.
+You|||Just doing my job.
+Nas|||...................................
+Nas|nasNeutral||I guess we’ll see then.
+|||(You breathe a sigh of relief.)
+Nas|||I’m sorry for being a bitch about it. I can tell you really are trying to help.
+You|||What’s bothering you? Why haven’t you been answering your phone?
+Nas|nasNeutral||You know I wasn’t lying all the time, I actually was distracted a lot the last few days.
+You|||What’ve you been doing?
+Nas|nasHappy||I have a few dogs. Back from when I was alive.
+Nas|||It's hard to like this, but I still have to look after them.
+You|||Wait, really that’s it?
+Nas|||You’d be surprised how hard it is to get food for, walk, and feed 11 chihuahuas as a ghost.
+You|||Wait wait wait wait wait, 11 chihuahuas?
+Nas|||Is that weird?
+You|||(YES)
+You|||No I don’t think so...
+Nas|||Oh good.
+|||(She seems oddly relieved by that.)
+Nas|nasNeutral||But yeah, I can do that interview now if you need.
+You|||Uh........
+You|||See the thing is I actually have to pick up my car from the shop now...
+You|||They called me before I got here saying they fixed the dent.
+Nas|nasNeutral||Who’s avoiding who now, huh?
+You|||I-       
+Nas|nasHappy||I’m kidding, I know you wouldn’t do that.
+Nas|||Go ahead, I’ll text you when I’ll be free next.
+||empty|(The two of you both crack a smile as you part for the day.)
