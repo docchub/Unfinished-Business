@@ -1,26 +1,26 @@
-void
+grassnight
 |||(Today is your day off.)
 |||(A long week of helping lost souls move on has you thoroughly exhausted.)
 |||(Sitting at home with your newly adopted 11 chihuahua’s you get a phone call from the office.)
 |||(It seems the office ghosts finally figured out how the old rotary works.)
 |||(Answering the call, you’re greeted by Corduroy on the other end.)
 You|||Hello...?
-Corduroy|||It has come to my attention that Ms. Buzzantine has withdrawn from the Unfinished Business program.
+Corduroy|coriNeutral||It has come to my attention that Ms. Buzzantine has withdrawn from the Unfinished Business program.
 You|||Beverlee, she pulled out?
-Corduroy|||Now while normally I wouldn’t care if a stray ghost slipped away, especially considering her manner, now isn’t the best time for this.
+Corduroy|coriNeutral2||Now while normally I wouldn’t care if a stray ghost slipped away, especially considering her manner, now isn’t the best time for this.
 Corduroy|||At the moment we’re in the middle of a merger with some overseas operations in the ghost ascension business.
 Corduroy|||We really need to land this thing, understand?
-Corduroy|||The feds tracked down the stache of leprechaun gold we’ve been using to foot the bill, and without it we’re dead in the water.
+Corduroy|coriAnnoy||The feds tracked down the stache of leprechaun gold we’ve been using to foot the bill, and without it we’re dead in the water.
 Corduroy|||And I’m not talking about the human feds, I’m talking mega-feds. I’m talking about the lizard people.
 Corduroy|||These are the folks who cracked mermaid watergate. They are single handedly responsible for the creation of astrology, understand?
 Corduroy|||Did you know that all Scorpios are actually sleeper agents for these guys? Yeah, its pretty fucked up.
 Corduroy|||Right now they have a monopoly on the undead market and are just waiting for us to slip up and take everything we’ve built.
 Corduroy|||A high profile client like Beverlee jumping ship now?
-Corduroy|||It puts the whole merger at risk.
+Corduroy|coriAnnoy3||It puts the whole merger at risk.
 Corduroy|||You need to find her and figure out her business NOW, or we’re all screwed.
 |||(Corduroy has never shown more urgency for anything. This must be incredibly serious.)
 You|||I’m on it boss.
-Corduroy|||The fate of the company is in your hands. Good luck.
+Corduroy|coriNeutral||The fate of the company is in your hands. Good luck.
 |||(You hang up the phone.)
 You|||..........
 |||(Half of what Corduroy said was gibberish to you, but you think it might be a good idea to look for Beverlee.)
@@ -36,20 +36,20 @@ Lieutenant Twinkletoes|||*bark* *bark*
 |||(It's a cool night.)
 |||(A gentle breeze chills you as you begin searching the grounds.)
 |||(Moping in her usual spot, you find Princess Beverlee, alone.)
-Bev|||Didn’t I tell you?
+Bev|bevMad|bevNeutral|Didn’t I tell you?
 Bev|||I have no more use for you, peasant.
 You|||Princess, listen, I think I can help you.
 Bev|||Your “help” interests me very little, my naive friend.
 Bev|||Leave me to wallow in my misfortune.
 You|||I will do no such thing my lady.
-Bev|||You dare speak back to your queen?
+Bev|bevMad||You dare speak back to your queen?
 You|||I come offering a boon to your highness.
-Bev|||What does the little man thing have to give me?
+Bev|bevNeutral||What does the little man thing have to give me?
 Bev|||If they’re promises of aid, and a blade in the back, I can spare you from having to draw your knife...
 Bev|||You have quite the selection in fact.
 Bev|||It seems both of us have felt its sting.
 You|||I forgive you for what happened the other day.
-Bev|||Then perhaps you are a stronger soul than I, peasant.
+Bev|bevNeutral||Then perhaps you are a stronger soul than I, peasant.
 Bev|||Tell me, would you forgive my sister?
 Bev|||Would you accept such a fate?
 You|||I don’t think I can answer that.
@@ -59,15 +59,15 @@ Bev|||Unfortunately, this is against my nature, and something within me still th
 Bev|||Perhaps mine is a path towards enlightenment. A practice in restraint.
 Bev|||What say you, peasant? Could I become a proper wise woman?
 You|||I cannot say, my lady. Though I believe I have a way to allow you to forgo this hero’s journey.
-Bev|||What dost thou speak of?
+Bev|bevNeutral||What dost thou speak of?
 You|||Follow me.
 |||(You turn and walk towards your car. Beverlee follows curiously.)
-|||(As you approach a cacophony of sneezing and other miscellaneous animal noises can be heard from inside the vehicle.)
+||empty|(As you approach a cacophony of sneezing and other miscellaneous animal noises can be heard from inside the vehicle.)
 |||(You throw the door open and watch as tumbling out, are Nastasia’s 11 chihuahua’s.)
 |||(You see Lieutenant Twinkletoes, Squeaky, Bilbo, Meep-Meep...)
 |||(Arthur, Pebbles, Merlin, Cpt. Yeehaw, Daniel Deathbringer, Fork, and Qwop.)
 |||(Beverlee lets out a shriek of fear.)
-Bev|||What treachery is this!
+Bev||bevNeutral|What treachery is this!
 You|||Wait, it's not what you think!
 |||(The dogs all gather at your feet, expectantly.)
 Bev|||They’re hideous...
@@ -77,22 +77,22 @@ Bev|||But... just look at them...
 You|||They need your guidance, my lady.
 |||(Beverlee pauses, examining the vermin.)
 |||(She turns to the lopsided Qwop.)
-Bev|||You, sit up straight.
+Bev|bevNeutral||You, sit up straight.
 |||(Qwop sits obediently, his tongue stuck out, still cross eyed.)
 |||(You see a twinkle in Beverlee’s eye...)
-Bev|||You two, attend me. You in the back, you will be my steed. And you, bring me a nice dandelion.
+Bev|bevNeutral||You two, attend me. You in the back, you will be my steed. And you, bring me a nice dandelion.
 |||(The dogs all begin skipping around the park merrily, following Beverlee’s commands. They quickly take a liking to her, and before long an hour has passed.)
-Bev|||Oh this has been a delight!
+Bev|bevHappy2||Oh this has been a delight!
 Bev|||A queen could not ask for more wonderful subjects, oh!
 |||(She cries out affectionately, landing on the nose of her steed, Lieutenant Twinkletoes.)
-Bev|||I’ve never felt so alive!
+Bev|bevHappy||I’ve never felt so alive!
 |||(Small ethereal particles begin to fizzle off from Beverlee’s form.)
 |||(It’s time.)
 Bev|||Oh darn, I was hoping we could do this a little longer.
 Bev|||Forever even...
-Bev|||But I suppose such things are not meant to last.
+Bev|bevSad||But I suppose such things are not meant to last.
 |||(As she continues to disappear, Beverlee regards you one last time...)
 Bev|||This would not have been possible without you.
-Bev|||I suppose, peasant, that you deserve my thanks...
-|||(You watch wordlessly as the former bee princess, now queen of the chihuahuas, vanishes from this world.)
+Bev|bevFinal2||I suppose, peasant, that you deserve my thanks...
+||empty|(You watch wordlessly as the former bee princess, now queen of the chihuahuas, vanishes from this world.)
 You|||It was an honor...

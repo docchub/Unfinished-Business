@@ -1,0 +1,207 @@
+weirdscape
+|||(Your days at Unfinished Business become weeks.)
+|||(Weeks become months.)
+|||(Months become a year.)
+|||(Soon, with you at the helm as host, the company thrives.)
+|||(Countless lost souls are given peace thanks to your contributions.)
+|||(Today is the anniversary of your joining the company.)
+|||(To celebrate, the office ghosts are holding a party.)
+|||(A strawberry cake with vanilla icing is brought in, with one giant candle lit in the center.)
+|||(The light from the candle illuminates the otherwise pitch black offices of Unfinished Business.)
+|||(Your coworkers cheer your name in their undead groans. And all is well.)
+Dylan Ghost|||Congratulations...
+Sign Ghost|||I made you a cool sign...
+Richard Ghost|||We couldn’t have done it without you...
+|||(Over the past year many of your original coworkers had been able to pass on.)
+|||(Some new ghosts filled their roles, but overall their numbers dwindled with time.)
+|||(Eventually, you figured that you might be the only one left here...)
+Corduroy|coriNeutral|coriNeutral|Only one year, and you’ve already made quite a splash.
+Corduroy|||The higher ups wanted me to pass a message onto you.
+Corduroy|||Apparently they’re considering you for a promotion.
+Corduroy|||They want you in their offices leading their afterlife cleanup unit.
+You|||I don’t know what to say...
+Corduroy|coriNeutral2||Think on it. It's an especially rare opportunity.
+Corduroy|||In the meantime, enjoy yourself. You’ve earned it.
+You||empty|Thanks...
+|||(You mingle on the outskirts of the party, distracted by Corduroy’s proposition.)
+|||(On one hand it was a career maker... but-)
+John Ghost||genericghost|help... my tie came undone again...
+||empty|(Could you really leave everyone?)
+|||(Just then one of your coworkers comes barging in, excited about something.)
+Jerry Ghost||tieghost|Hey everyone!
+|||(All eyes fall on him.)
+Jerry Ghost|||We finally paid the electric bill!
+Jerry Ghost|||Look!
+|||(As the lights flash on there’s a collective gasp across the room.)
+||empty|(Everyone’s gaze shoots from Jerry to Corduroy.)
+Corduroy||coriNeutral|Please people, relax.
+Corduroy|||Its only a little-
+|||(Sparks begin to escape from Corduroy’s form, drawn from the buzzling electricity around you now.)
+Corduroy|||I remember...
+||empty|(A bright light engulfs the room. You feel a shocking sensation run through your entire body, numbing you. Your arms won’t move, your legs don’t work.)
+|||(As the flash fades you see the office in ruins. Fire beginning to spread from all corners of the dusty old library.)
+|||(You see your coworkers tethered to Corduroy by arcs of electricity.)
+|||(Their forms become thinner. Flickering. Before disappearing altogether.)
+|||(Their essence being pulled into the roil of crackling energy that now surrounds your boss...)
+|||(You try to move, to help your friends, but your body doesn’t respond. You’re still paralyzed from the blast.)
+Corduroy?|coriFinal1||I’VE BEEN WAITING SO LONG FOR THIS
+Trevor Ghost|||...i don’t want to go...
+||corrupted|(The ghost is mercilessly devoured by the storm.)
+|||(You try to shout out at Corduroy, but all that escapes is a series of strained whimpers.)
+|||(The entity turns to acknowledge you.)
+???|||You...
+???|||I have to thank you.
+???|||Trapped like that for so long...
+???|||It has...
+???|||A toll on the mind...
+|||(The entity cackles, reveling in their newly taken form.)
+|||(Your coworkers continue to desperately cry out. Their voices becoming weaker with each passing moment...)
+???|||You know, I couldn’t have done this without you.
+???|||I would’ve been happy to watch this shithole go under, but...
+???|||This is just so much better.
+|||(The intensity of the energy binding the other ghosts increases, causing their screams to echo and distort, louder, and louder.)
+???|||I bet you think you’re the hero of this story.
+???|||If you did... I wouldn’t blame you.
+???|||I was just as foolish.
+???|||Foolish enough to believe their lies.
+???|||Foolish enough to trust myself to these others...
+|||(The entity pauses, moving within inches of your face.)
+???||corS|Do you know what they did to me?
+|||(You try to shake your head, but you cannot.)
+???|||They promised me an opportunity, a chance to help others, to help these pitiful lost souls...
+???|||When really, they only just wanted to help themselves.
+???|||Once I agreed, they stole my body, passing it around like a ragdoll.
+???|||One spirit to another...
+???|||One parasite to the next...
+???||corrupted|No agency.
+???|||No freedom.
+???|||It was AGONIZING.
+???|||I see you there on the ground trying to squirm away...
+???|||Unable to move, even scream.
+???|||That fear in your eyes…
+|||(They get closer again...)
+???||corS|THE EXACT SAME FEAR I KNEW FOR YEARS
+???|||STUCK
+???|||FlOODED WITH THE PAIN OF MY POSSESSORS
+???|||unable to raise a FINGER
+???|coriFinal2|corrupted|I WANT YOU TO IMAGINE WHAT THAT FEELS LIKE 
+???|||over and Over and OvEr and OVER AGAIN
+|||(You speak, barely above a whisper.)
+You|||i’m... sorry
+???|coriDistort||SORRY, doesn’t fix it.
+???|||SORRY DOESN’T GIVE ME MY LIFE BACK
+???|||THEY KILLED ME
+???|||AND NOW THEY GET TO MOVE ON?
+???|||THEY GET TO BE FORGIVEN?
+???|||NO      
+???|||I WILL SUNDER ALL THEY’VE BUILT
+???|||DESTROY EVERYONE THEY LOVE
+???|||AND ONLY ONCE EVERYTHING THEY CARE ABOUT IS REDUCED TO ASH-
+???|||ONLY THEN WILL THEY HAVE SUFFERED EVEN A FRACTION OF THE PAIN THEY DID TO ME
+|||(All the other remaining ghosts have been eviscerated.)
+|||(You are all that remains.)
+|||(You, and the lightning beast.)
+You|||Maybe you don’t have to forgive them.
+|||(You find yourself able to speak again...)
+You|||I don’t think I could.
+You|||And I don’t.
+You|||There’s no way to condone what happened to you.
+|||(There’s a pause.)
+You|||But there are still good people here who rely on us.
+You|||You can’t punish them for what the others did.
+???|||”Good people”
+???|||Like Beverlee?
+???|||Like Nastasia?
+???|||You think they’re so innocent?
+???|||The child who threw a temper tantrum and possessed you without asking?
+???|||The woman who stole people’s bodies to feed her fucking dogs?
+|||(Their voice is filled with unfettered disgust.)
+???|||They’re your moral pillar?
+???|||They’re the reason more living people have to suffer?
+You|||They aren’t monsters.
+You|||And neither are you.
+|||(The entity laughs.)
+???|||IS THAT RIGHT?
+???|||Tell me, do you truly care so much for others? Or do you just get off helping wounded animals?
+???|||Does it help you sleep better at night?
+???|||Or is it because the broken are the only ones you can trick into liking you?
+|||(. . .)
+???|||Give a crying child a blanket, and infect them with yourself?
+???|||The disease of dependence on you?
+|||(. . . . . . .)
+You|||Fuck you.
+???|||Oh there it is!
+???|||You don’t even have a response, huh?
+???|||Tells me all I need to know.
+You|||Go to hell, you don’t know me.
+You|||You’re so conceited, you know?
+You|||You’re so convinced that everyone is out to get you that you can’t even conceive of someone actually caring for another person.
+You|||Much less yourself.
+???|||You think you care about me?
+???|||WHAT A FUCKING JOKE
+You|||They were prickly, and an ass at times, but the person I knew was worth saving.
+You|||Nas and Beverlee weren’t perfect either. Far fucking from it.
+You|||Michael too.
+You|||But at least they tried to be better.
+You|||And that’s just a monumental bit more than I can say about you.
+???|||TRYING AND FAILING TO BE A BETTER PERSON DOESN’T MAKE THEM SPECIAL
+???|||IT DOESN’T CHANGE ANYTHING
+???|||THEY SHOULD’VE JUST EMBRACED WHO THEY WERE
+???|||INSTEAD OF LYING AND HIDING BEHIND FALSE PRETENSES
+You|||Look who’s fucking talking.
+You|||You’d rather lash out and destroy everything than confront your own baggage.
+You|||You needed a whole speech to convince me why I should be ashamed of myself.
+You|||But I know I’m a fuck up.
+You|||Hell, all of us are.
+You|||But making us into monsters...
+You|||Taking us all down with you won’t change anything.
+???|||RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+|||(The entity goes to strike you. A killing blow.)
+|||(You wince, bracing for the impact...)
+|||(But it never comes.)
+|||(You look, and blocking the entity’s path are Beverlee, Nastasia, Michael, as well as a wave of other ghosts you recognize, who you helped pass on...)
+???|coriDistort||NO, begone you infernal rabble!
+Beverlee|bevNeutral|bevNeutral|Mind your tongue, peasant!
+Nas|nasNeutral|nasNeutral|Too loud...
+MS|msHappy|msNeutral|Hey gamers :D
+|||(You’re stunned.)
+|||(In more ways than one at this point.)
+You||empty|Everyone?
+You|||How did you all...?
+Beverlee|bevHappy2|bevNeutral|It was Lady Nastasia’s idea.
+Nas|nasNeutral|nasNeutral|When I got to the afterlife, eventually I met Bev and MS...
+Nas|||I told them about how you helped me...
+Nas|nasUnimpressed||It turns out in the afterlife there’s a little mom and pop shop for people who want to work part time as guardian angels.
+MS|msHappy2|msNeutral|They called it “Unfinished Guardian Angel Business” :0
+Nas||nasNeutral|Weird coincidence, but...
+MS||msNeutral|Its as self explanatory as it sounds :p
+Beverlee|bevNeutral|bevNeutral|Indeed, and so with Lady Nastasia’s guidance, we all decided to join said operation thusly.
+You||empty|You guys...
+You|||Thank you.
+|||(Together you all stare down the furious storming entity.)
+|||(Michael begins to hum epic battle music.)
+MS|msHappy|msNeutral|Are we about to save the day with the power of friendship?
+MS|||bc I’m sooooo down for that
+Beverlee|bevHappy2|bevNeutral|You bet your sweet patoot!~
+Nas|nasNeutral|nasNeutral|Please never say that again...
+A bunch of other people||empty|(agreeing with various degrees of enthusiasm)
+MS|msHappy2|msNeutral|EVERYONE! LEND ME YOUR STRENGTH!
+||empty|(Together, all the guardian angels begin channeling their power into Michael’s special attack.)
+|||(If any of them could hold hands, they would be right now.)
+|||(You shed a tear just imagining it.)
+|||(Wiping your eyes, you stand. The power of friendship curing your paralysis caused due to system shock...)
+|||(You focus forward, and harness the power of friendship. Likewise aiding the special attack.)
+Everyone|||HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+???||corrupted|NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+||empty|(And it is done...)
+|||(Your boss Corduroy has been defeated by the friends you made a long the way.)
+|||(You hope they find peace wherever they have gone.)
+|||(With their jobs completed, the guardian angel ghosts must all return from whence they came.)
+|||(You say goodbye once more to your old clients.)
+|||(You share pictures of the 11 chihuahua's, all grown up.)
+|||(Nastasia is over the rainbow.)
+|||(As you wave farewell, you see from where Corduroy disappeared a gaggle of spirits lay hidden beneath the old floorboards.)
+|||(Freed by the power of friendship, you breathe a sigh of relief as your coworkers, and Jerry Ghost, have survived the ordeal.)
+|||(From here on you choose to devote the rest of your life to your work. Helping thousands during your lifetime...)
+|||(As while you may have defeated the incarnation of electric wrath itself, not even the power of friendship can defeat capitalism.)
+|||(The End~)

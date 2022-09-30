@@ -13,21 +13,22 @@ You|||What am I even doing...
 You|||I should just give up already.
    |crash||*CRASH*
 ???|coriAnnoy|coriNeutral|Watch it...
+   |||(Stark white and radiating a cold aura, this character hugs the shadows, avoiding the city lights.)
    |||(The tired looking creature bends down to pick up a shoebox it dropped.)
    |||(You see something that looks like fabric peeking out, but you can’t quite make out what it is.)
 You|||Oh my god I’m so sorry!
 You|||I-
    |||(It only just hit you that you have no idea what you were looking at.)
 You|||Are you one of those mascot characters? Isn’t it a little late for you to be out?
-???|coriNeutral||Nah.
+???|coriNeutral||Nah...
 You|||Ok so what are you supposed to be then?
-???|coriNeutral2||A ghost.
-You|||I don’t really see it. Sorry.
-???|coriNeutral3||No, like an actual ghost.
+???|coriNeutral2||A ghost...
+You|||Oh no, I don't believe in ghosts.
+???|coriNeutral3||But I'm an actual ghost...
 You|||Oh right, sorry. I’ll play along.
    |||(The ghost sighs.)
-???|coriAnnoy||Whatever. I really need to go.
+???|coriAnnoy||Whatever... I really need to go.
 You|||Oh right, sorry. See you.
-???|coriAnnoy2||Uh huh.
+???|coriAnnoy2||Uh huh...
    ||empty|(As the mascot leaves you see something else they dropped by accident. It looks like a job pamphlet! Some small company called ‘Unfinished Business’)
 You|||...
