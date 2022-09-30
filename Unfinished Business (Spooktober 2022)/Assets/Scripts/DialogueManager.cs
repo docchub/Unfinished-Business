@@ -189,6 +189,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (sceneFilePath != "" || introSceneFilePaths.Count == 0)
             {
+                FindObjectOfType<MainMenu>().SaveGame();
                 SceneManager.LoadScene("SceneSelector");
             }
             

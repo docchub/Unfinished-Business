@@ -213,11 +213,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alertText: {fileID: 7940099230516831787, guid: 245e34b51ad92dd488da0bcefe89e593, type: 3}
   finishedAlertText: {fileID: 2370216791804872773, guid: dcf0918dffdb4304c8d7f30d7bee7192, type: 3}
-  cooridinates:
-  - {x: 3.5, y: 1.7}
-  - {x: 3.5, y: 0.55}
-  - {x: 3.5, y: -0.55}
-  - {x: 3.5, y: -1.7}
 --- !u!1 &153458655
 GameObject:
   m_ObjectHideFlags: 0
